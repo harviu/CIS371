@@ -30,7 +30,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 4, 09/15 | [TypeScript 1](assets/pdf/TypeScript-I.pdf) | [TypeScript 2](assets/pdf/TypeScript-II.pdf) | [Quiz 3](quizzes/3.md) | {ref}`resources <content:references:w4>` |
 | 5, 09/22 | [A1 Review](assignments/main.css) \| [Term Project](project/term.md) | [TypeScript 3](assets/pdf/TypeScript-III.pdf) | [TypeScript 4](assets/pdf/TypeScript-IV.pdf) | {ref}`resources <content:references:w5>` |
 | 6, 09/29 | [TypeScript 5](assets/pdf/TypeScript-V.pdf) | [TypeScript 6](assets/pdf/TypeScript-VI.pdf) | [Quiz 4](quizzes/4.md) | {ref}`resources <content:references:w6>` |
-| 7, 10/06 | HTTP \| JS Modules | Vue.js 1 \| [London Fog](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Components/LondonFog) | Vue.js 2 \| A2 | {ref}`resources <content:references:w7>` |
+| 7, 10/06 | [HTTP](assets/pdf/HTTP.pdf) \| [JS Modules](assets/pdf/JS-Modules.pdf) | Vue.js 1 \| [London Fog](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Components/LondonFog) | Vue.js 2 \| A2 | {ref}`resources <content:references:w7>` |
 | 8, 10/13 | Vue.js 3 | Quiz 5 | Promise | {ref}`resources <content:references:w8>` |
 | 9, 10/20 | **Fall Break (No Class)** | A2 Review \| A3 | Pinia 1 | {ref}`resources <content:references:w9>` |
 | 10, 10/27 | Pinia 2 | Quiz 6 | Vue Router | {ref}`resources <content:references:w10>` |
