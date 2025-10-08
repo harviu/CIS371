@@ -1,6 +1,6 @@
 # Custom Drink Maker
 
-In this homework, you will leverage Vue.js to create a dynamic and interactive beverage component. The goal is to implement a versatile component that allows users to customize their beverage by selecting various options for creamers, syrups, and base beverages.
+In this assignment, you will leverage Vue.js to create a dynamic and interactive beverage component. The goal is to implement a versatile component that allows users to customize their beverage by selecting various options for creamers, syrups, and base beverages.
 
 ## Objectives
 
@@ -11,7 +11,7 @@ In this homework, you will leverage Vue.js to create a dynamic and interactive b
 
 ## Preparation
 
-1. Accept your instructor's [GitHub classroom invitation](https://classroom.github.com/a/E9FFIy0L) to set up your project repository.
+1. Accept your instructor's [GitHub classroom invitation](https://classroom.github.com/a/6J6HPx2h) to set up your project repository.
 
    1. **Select Your Name:** ![select-name](../assets/img/project1-selectname.jpg)
    2. **Initialize Your Project Repository:**
@@ -38,7 +38,7 @@ In this homework, you will leverage Vue.js to create a dynamic and interactive b
 
 ## Instructions
 
-In this homework, you will develop a Beverage Vue Application. Your objective is to enhance the application with additional choices for creamer, syrup, and base beverages, while ensuring proper UI behavior based on the customer's selections.
+In this assignment, you will develop a Beverage Vue Application. Your objective is to enhance the application with additional choices for creamer, syrup, and base beverages, while ensuring proper UI behavior based on the customer's selections.
 
 1. Expand the selection options in the `App.vue` to include more varieties of creamer, syrup, and base beverages for customers to choose from:
 
