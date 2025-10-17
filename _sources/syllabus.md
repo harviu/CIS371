@@ -35,7 +35,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 9, 10/20 | **Fall Break (No Class)** | A2 Review \| A3 | Pinia 1 | {ref}`resources <content:references:w9>` |
 | 10, 10/27 | Pinia 2 | Quiz 6 | Vue Router | {ref}`resources <content:references:w10>` |
 | 11, 11/03 | A3 Review \| A4 | Vuetify 1 | Vuetify 2 | {ref}`resources <content:references:w11>` |
-| 12, 11/10 | Firestore 1 | Quiz 7 | Firestore 2 | {ref}`resources <content:references:w12>` |
+| 12, 11/10 | Quiz 7 | Firestore 1 | Firestore 2 | {ref}`resources <content:references:w12>` |
 | 13, 11/17 | A4 Review \| A5 | Authentication \| Demo | Fetch & Axios | {ref}`resources <content:references:w13>` |
 | 14, 11/24 | ExpressJS | **Thanksgiving Break** | **(No Class)** | {ref}`resources <content:references:w14>` |
 | 15, 12/01 | A5 Review | Project Lab | Project Lab | {ref}`resources <content:references:w15>` |
