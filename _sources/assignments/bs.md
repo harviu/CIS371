@@ -9,7 +9,7 @@ In this homework, you will extend your previous project Custom Drink Maker by bu
 
 ## Instructions
 
-Accept your instructor’s [GitHub Classroom invitation](https://classroom.github.com/a/nBu_5vkw) to create your project repository.
+Accept your instructor’s [GitHub Classroom invitation](https://classroom.github.com/a/IKzkRFQi) to create your project repository.
 
 1. **Project Initialization:**  
    Copy all necessary code (excluding `beverage.ts`) from your previous homework **"Custom Drink Maker"** into the `src/` folder to ensure that all components function correctly and beverages are rendered as expected.
