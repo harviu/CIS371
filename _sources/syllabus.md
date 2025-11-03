@@ -31,10 +31,10 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 5, 09/22 | [A1 Review](assignments/main.css) \| [Term Project](project/term.md) | [TypeScript 3](assets/pdf/TypeScript-III.pdf) | [TypeScript 4](assets/pdf/TypeScript-IV.pdf) | {ref}`resources <content:references:w5>` |
 | 6, 09/29 | [TypeScript 5](assets/pdf/TypeScript-V.pdf) | [TypeScript 6](assets/pdf/TypeScript-VI.pdf) | [Quiz 4](quizzes/4.md) | {ref}`resources <content:references:w6>` |
 | 7, 10/06 | [HTTP](assets/pdf/HTTP.pdf) \| [JS Modules](assets/pdf/JS-Modules.pdf) | [Vue.js 1](assets/pdf/VueJS-I.pdf) \| [London Fog](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Components/LondonFog) | [Vue.js 2](assets/pdf/VueJS-II.pdf) \| [A2](assignments/cdm.md) | {ref}`resources <content:references:w7>` |
-| 8, 10/13 | [Vue.js 3](assets/pdf/VueJS-III.pdf) | [ Quiz 5](./quizzes/5.md) | [Promise](assets/pdf/Promise.pdf) | {ref}`resources <content:references:w8>` |
+| 8, 10/13 | [Vue.js 3](assets/pdf/VueJS-III.pdf) | [Quiz 5](./quizzes/5.md) | [Promise](assets/pdf/Promise.pdf) | {ref}`resources <content:references:w8>` |
 | 9, 10/20 | **Fall Break (No Class)** | [Pinia 1](assets/pdf/Pinia.pdf) | A2 Review \| [A3](./assignments/bs.md) | {ref}`resources <content:references:w9>` |
-| 10, 10/27 | [Pinia 2](assets/pdf/Pinia-II.pdf) | Quiz 6 | [Vue Router](assets/pdf/Vue-Router.pdf) | {ref}`resources <content:references:w10>` |
-| 11, 11/03 | A3 Review \| A4 | Vuetify 1 | Vuetify 2 | {ref}`resources <content:references:w11>` |
+| 10, 10/27 | [Pinia 2](assets/pdf/Pinia-II.pdf) | [Quiz 6](./quizzes/6.md) | [Vue Router](assets/pdf/Vue-Router.pdf) | {ref}`resources <content:references:w10>` |
+| 11, 11/03 | [Vuetify 1](assets/pdf/Vuetify.pdf) | A3 Review \| A4 | Vuetify 2 | {ref}`resources <content:references:w11>` |
 | 12, 11/10 | Quiz 7 | Firestore 1 | Firestore 2 | {ref}`resources <content:references:w12>` |
 | 13, 11/17 | A4 Review \| A5 | Authentication \| Demo | Fetch & Axios | {ref}`resources <content:references:w13>` |
 | 14, 11/24 | ExpressJS | **Thanksgiving Break** | **(No Class)** | {ref}`resources <content:references:w14>` |
