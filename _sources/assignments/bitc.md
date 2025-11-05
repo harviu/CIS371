@@ -14,7 +14,7 @@ In this homework, you will extend your previous project **"Brew & Save"** by mov
 
 ## Instructions
 
-Accept your instructor’s [GitHub Classroom invitation](https://classroom.github.com/a/n_Q1ez-f) to create your project repository.
+Accept your instructor’s [GitHub Classroom invitation](https://classroom.github.com/a/U40Lqhtq) to create your project repository.
 
 You may copy all necessary code from your previous project **"Custom Drink Maker"**, excluding the `.json` files in the `data/` folder.
 

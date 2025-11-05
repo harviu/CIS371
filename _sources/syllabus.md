@@ -36,7 +36,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 10, 10/27 | [Pinia 2](assets/pdf/Pinia-II.pdf) | [Quiz 6](./quizzes/6.md) | [Vue Router](assets/pdf/Vue-Router.pdf) | {ref}`resources <content:references:w10>` |
 | 11, 11/03 | [Vuetify 1](assets/pdf/Vuetify.pdf) | A3 Review \| A4 | Vuetify 2 | {ref}`resources <content:references:w11>` |
 | 12, 11/10 | Quiz 7 | Firestore 1 | Firestore 2 | {ref}`resources <content:references:w12>` |
-| 13, 11/17 | A4 Review \| A5 | Authentication \| Demo | Fetch & Axios | {ref}`resources <content:references:w13>` |
+| 13, 11/17 | Authentication \| Demo | A4 Review \| A5 | Fetch & Axios | {ref}`resources <content:references:w13>` |
 | 14, 11/24 | ExpressJS | **Thanksgiving Break** | **(No Class)** | {ref}`resources <content:references:w14>` |
 | 15, 12/01 | A5 Review | Project Lab | Project Lab | {ref}`resources <content:references:w15>` |
 | 16, 12/08 |  | **Project Presentation** |  |  |
