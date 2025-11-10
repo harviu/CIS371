@@ -35,7 +35,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 9, 10/20 | **Fall Break (No Class)** | [Pinia 1](assets/pdf/Pinia.pdf) | A2 Review \| [A3](./assignments/bs.md) | {ref}`resources <content:references:w9>` |
 | 10, 10/27 | [Pinia 2](assets/pdf/Pinia-II.pdf) | [Quiz 6](./quizzes/6.md) | [Vue Router](assets/pdf/Vue-Router.pdf) | {ref}`resources <content:references:w10>` |
 | 11, 11/03 | [Vuetify 1](assets/pdf/Vuetify.pdf) | A3 Review \| [A4](./assignments/bitc.md) | [Vuetify 2](assets/pdf/Vuetify-II.pdf) | {ref}`resources <content:references:w11>` |
-| 12, 11/10 | Quiz 7 | Firestore 1 | Firestore 2 | {ref}`resources <content:references:w12>` |
+| 12, 11/10 | [Quiz 7](./quizzes/7.md) | Firestore 1 | Firestore 2 | {ref}`resources <content:references:w12>` |
 | 13, 11/17 | Authentication \| Demo | A4 Review \| A5 | Fetch & Axios | {ref}`resources <content:references:w13>` |
 | 14, 11/24 | ExpressJS | **Thanksgiving Break** | **(No Class)** | {ref}`resources <content:references:w14>` |
 | 15, 12/01 | A5 Review | Project Lab | Project Lab | {ref}`resources <content:references:w15>` |
