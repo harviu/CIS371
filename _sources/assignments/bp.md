@@ -106,7 +106,8 @@ Your user interface should:
 
   - Google Sign-In button,
   - A clear display of the current signed-in user,
-  - A message area for login errors and success messages.
+  - A message area for login errors and success messages,
+  - Use [onAuthStateChanged](https://firebase.google.com/docs/auth/web/manage-users) to monitor the current authentication state.
 
 - Show saved beverages for the current user:
   - Use radio buttons or a simple selection interface,
