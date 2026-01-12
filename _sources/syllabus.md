@@ -8,7 +8,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 
 - <i class="fa fa-envelope"></i> **E-mail:** [yong.zhuang@gvsu.edu](mailto:yong.zhuang@gvsu.edu)
 - <i class="fa fa-building"></i> **Office:** MAK D-2-234
-- <i class="fa fa-building"></i> **Office Hours:** Monday, Wednesday, 12:00 pm - 1:00 pm
+- <i class="fa fa-building"></i> **Office Hours:** Monday, Wednesday, 11:00 am - 12:00 pm
 - <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/)
 - <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/syllabus.pdf)
 - <i class="fa fa-video"></i> **Zoom:** Meeting ID: 396 668 6420, Password: 587684
@@ -16,27 +16,35 @@ to our Web Application Programming. This course offers an in-depth exploration o
 
 ## Class Schedule
 
-- **Class Time:** MWF 2:00 pm - 2:50 pm
-- **Room:** MAK B-1-126
-- **Final Presentation:** December 10 (Wednesday), 2:00 pm - 3:50 pm
+**Section 01**
+
+- **Class Time:** Asynchronous
+- **Room:** Online
+- **Final Presentation:** Week of April 27
+
+**Section 02**
+
+- **Class Time:** MWF 10:00 am - 10:50 am
+- **Room:** MAK D-1-124
+- **Final Presentation:** April 27 (Monday), 10:00 am - 11:50 am
 
 ## Tentative Schedule
 
 | Week | Monday | Wednesday | Friday | Resources |
 | --- | --- | --- | --- | --- |
-| 1, 08/25 | [Syllabus](assets/pdf/Syllabus-Intro.pdf) \| [Introduction](assets/pdf/Introduction.pdf) | [Docker](assets/pdf/Docker.pdf) | [HTML](assets/pdf/HTML.pdf) | {ref}`resources <content:references:w1>` |
-| 2, 09/01 | **Labor Day (No Class)** | [Quiz 1](quizzes/1.md) | [CSS 1](assets/pdf/CSS-I.pdf) | {ref}`resources <content:references:w2>` |
-| 3, 09/08 | [CSS 2](assets/pdf/CSS-II.pdf) | [Grid & Flexbox](assets/pdf/CSS-Grid-Flexbox.pdf) \| [A1](assignments/css-html.md) | [Quiz 2](quizzes/2.md) | {ref}`resources <content:references:w3>` |
-| 4, 09/15 | [TypeScript 1](assets/pdf/TypeScript-I.pdf) | [TypeScript 2](assets/pdf/TypeScript-II.pdf) | [Quiz 3](quizzes/3.md) | {ref}`resources <content:references:w4>` |
-| 5, 09/22 | [A1 Review](assignments/main.css) \| [Term Project](project/term.md) | [TypeScript 3](assets/pdf/TypeScript-III.pdf) | [TypeScript 4](assets/pdf/TypeScript-IV.pdf) | {ref}`resources <content:references:w5>` |
-| 6, 09/29 | [TypeScript 5](assets/pdf/TypeScript-V.pdf) | [TypeScript 6](assets/pdf/TypeScript-VI.pdf) | [Quiz 4](quizzes/4.md) | {ref}`resources <content:references:w6>` |
-| 7, 10/06 | [HTTP](assets/pdf/HTTP.pdf) \| [JS Modules](assets/pdf/JS-Modules.pdf) | [Vue.js 1](assets/pdf/VueJS-I.pdf) \| [London Fog](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Components/LondonFog) | [Vue.js 2](assets/pdf/VueJS-II.pdf) \| [A2](assignments/cdm.md) | {ref}`resources <content:references:w7>` |
-| 8, 10/13 | [Vue.js 3](assets/pdf/VueJS-III.pdf) | [Quiz 5](./quizzes/5.md) | [Promise](assets/pdf/Promise.pdf) | {ref}`resources <content:references:w8>` |
-| 9, 10/20 | **Fall Break (No Class)** | [Pinia 1](assets/pdf/Pinia.pdf) | A2 Review \| [A3](./assignments/bs.md) | {ref}`resources <content:references:w9>` |
-| 10, 10/27 | [Pinia 2](assets/pdf/Pinia-II.pdf) | [Quiz 6](./quizzes/6.md) | [Vue Router](assets/pdf/Vue-Router.pdf) | {ref}`resources <content:references:w10>` |
-| 11, 11/03 | [Vuetify 1](assets/pdf/Vuetify.pdf) | A3 Review \| [A4](./assignments/bitc.md) | [Vuetify 2](assets/pdf/Vuetify-II.pdf) | {ref}`resources <content:references:w11>` |
-| 12, 11/10 | [Quiz 7](./quizzes/7.md) | [Firestore 1](assets/pdf/Firestore-I.pdf) | [Firestore 2](assets/pdf/Firestore-II.pdf) | {ref}`resources <content:references:w12>` |
-| 13, 11/17 | [Authentication](assets/pdf/FirebaseUserAuthentication.pdf) \| [Demo](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Firebase/Authentication/SigninSignup?file=README.md) | [Fetch & Axios](assets/pdf/Fetch-Axios.pdf) | A4 Review \| [A5](./assignments/bp.md) | {ref}`resources <content:references:w13>` |
-| 14, 11/24 | [ExpressJS](assets/pdf/ExpressJS.pdf) | **Thanksgiving Break** | **(No Class)** | {ref}`resources <content:references:w14>` |
-| 15, 12/01 | Project Lab | A5 Review | Project Lab | {ref}`resources <content:references:w15>` |
-| 16, 12/08 |  | **Project Presentation** |  |  |
+| 1, 01/12 | [Syllabus](assets/pdf/Syllabus-Intro.pdf) \| [Introduction](assets/pdf/Introduction.pdf) | Docker | HTML | {ref}`resources <content:references:w1>` |
+| 2, 01/19 | **MLK (No Class)** | Quiz 1 | CSS 1 | Resources |
+| 3, 01/26 | CSS 2 | Grid & Flexbox \| A1 | Quiz 2 | Resources |
+| 4, 02/02 | TypeScript 1 | TypeScript 2 | Quiz 3 | Resources |
+| 5, 02/09 | A1 Review \| Term Project | TypeScript 3 | TypeScript 4 | Resources |
+| 6, 02/16 | TypeScript 5 | TypeScript 6 | Quiz 4 | Resources |
+| 7, 02/23 | HTTP \| JavaScript Modules | Vue.js 1 | Vue.js 2 \| A2 | Resources |
+| 8, 03/02 | Vue.js 3 | Quiz 5 | Promise | Resources |
+| 9, 03/09 | **Spring** | **Break** | **No Class** | Resources |
+| 10, 03/16 | Pinia 1 | A2 Review \| A3 | Pinia 2 | Resources |
+| 11, 03/23 | Quiz 6 | Vue Router | Vuetify 1 | Resources |
+| 12, 03/30 | A3 Review \| A4 | Vuetify 2 | Quiz 7 | Resources |
+| 13, 04/06 | Firestore 1 | Firestore 2 | Authentication \| Demo | Resources |
+| 14, 04/13 | Fetch & Axios | A4 Review \| A5 | ExpressJS | Resources |
+| 15, 04/20 | Project Lab | A5 Review | Project Lab | Resources |
+| 16, 04/27 | **Final Project Presentation** |  |  |  |
