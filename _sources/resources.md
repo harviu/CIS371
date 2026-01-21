@@ -20,3 +20,14 @@
 - [Emmet cheat-sheet](https://docs.emmet.io/cheat-sheet/)
 - [HTML Color Names](https://www.w3schools.com/colors/colors_names.asp)
 ```
+
+(content:references:w2)=
+
+## Week 2
+
+```{div} full-width
+- [csszengarden](https://www.csszengarden.com/)
+- [Awesome Icons Reference](https://www.w3schools.com/icons/icons_reference.asp)
+- [CSS cheat-sheet](https://htmlcheatsheet.com/css/)
+- [CSS cheat-sheet 2](https://devhints.io/css)
+```
