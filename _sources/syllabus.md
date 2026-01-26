@@ -34,7 +34,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | --- | --- | --- | --- | --- |
 | 1, 01/12 | [Syllabus](assets/pdf/Syllabus-Intro.pdf) \| [Introduction](assets/pdf/Introduction.pdf) | [🎬](https://youtu.be/TAWugCZ2yJ4),[Docker](assets/pdf/Docker.pdf) | [🎬](https://youtu.be/05DjAsggvbA),[HTML](assets/pdf/HTML.pdf) | {ref}`resources <content:references:w1>` |
 | 2, 01/19 | **MLK (No Class)** | [Quiz 1](quizzes/1.md) | [🎬](https://youtu.be/zziN4DBmo78),[CSS 1](assets/pdf/CSS-I.pdf) | {ref}`resources <content:references:w2>` |
-| 3, 01/26 | CSS 2 | Grid & Flexbox \| A1 | Quiz 2 | Resources |
+| 3, 01/26 | [CSS 2](assets/pdf/CSS-II.pdf) | Grid & Flexbox \| A1 | Quiz 2 | {ref}`resources <content:references:w3>` |
 | 4, 02/02 | TypeScript 1 | TypeScript 2 | Quiz 3 | Resources |
 | 5, 02/09 | A1 Review \| Term Project | TypeScript 3 | TypeScript 4 | Resources |
 | 6, 02/16 | TypeScript 5 | TypeScript 6 | Quiz 4 | Resources |
