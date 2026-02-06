@@ -35,7 +35,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 1, 01/12 | [Syllabus](assets/pdf/Syllabus-Intro.pdf) \| [Introduction](assets/pdf/Introduction.pdf) | [🎬](https://youtu.be/TAWugCZ2yJ4),[Docker](assets/pdf/Docker.pdf) | [🎬](https://youtu.be/05DjAsggvbA),[HTML](assets/pdf/HTML.pdf) | {ref}`resources <content:references:w1>` |
 | 2, 01/19 | **MLK (No Class)** | [Quiz 1](quizzes/1.md) | [🎬](https://youtu.be/zziN4DBmo78),[CSS 1](assets/pdf/CSS-I.pdf) | {ref}`resources <content:references:w2>` |
 | 3, 01/26 | [🎬](https://youtu.be/hrAmtImxens),[CSS 2](assets/pdf/CSS-II.pdf) | [🎬](https://youtu.be/PBVcwBJoVwI)[Grid & Flexbox](assets/pdf/CSS-Grid-Flexbox.pdf) \| [🎬](https://youtu.be/-QW07rtgZMA)[A1](assignments/css-html.md) | [Quiz 2](quizzes/2.md) | {ref}`resources <content:references:w3>` |
-| 4, 02/02 | [🎬](https://youtu.be/bxtmoU_GYKQ),[TypeScript 1](assets/pdf/TypeScript-I.pdf) | [🎬](https://youtu.be/YkB_Rgm17uA),[TypeScript 2](assets/pdf/TypeScript-II.pdf) | Quiz 3 | {ref}`resources <content:references:w4>` |
+| 4, 02/02 | [🎬](https://youtu.be/bxtmoU_GYKQ),[TypeScript 1](assets/pdf/TypeScript-I.pdf) | [🎬](https://youtu.be/YkB_Rgm17uA),[TypeScript 2](assets/pdf/TypeScript-II.pdf) | [Quiz 3](quizzes/3.md) | {ref}`resources <content:references:w4>` |
 | 5, 02/09 | A1 Review \| Term Project | TypeScript 3 | TypeScript 4 | {ref}`resources <content:references:w5>` |
 | 6, 02/16 | TypeScript 5 | TypeScript 6 | Quiz 4 | Resources |
 | 7, 02/23 | HTTP \| JavaScript Modules | Vue.js 1 | Vue.js 2 \| A2 | Resources |
