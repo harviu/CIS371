@@ -9,6 +9,16 @@ Build a static online store showcasing your proficiency in fundamental CSS and H
 - Managing source code and version control with GitHub.
 - Deploying the website on GitHub Pages.
 
+## Best Solutions
+
+- Section 01
+  - [Samuel Chait](https://gvsu-cis371.github.io/assignment1-chaits38/) \| [CSS](https://github.com/GVSU-CIS371/assignment1-chaits38/blob/main/main.css)
+  - [Chase Sloma](https://gvsu-cis371.github.io/assignment1-slomac1/) \| [CSS](https://gvsu-cis371.github.io/assignment1-slomac1/main.css)
+- Section 02
+  - [Marcus Abad-Dominguez](https://gvsu-cis371.github.io/assignment1-mabaddomm/) \| [CSS](https://github.com/GVSU-CIS371/assignment1-mabaddomm/blob/main/main.css)
+  - [Caleb Croff](https://gvsu-cis371.github.io/assignment1-Caleb-Croff/) \| [CSS](https://github.com/GVSU-CIS371/assignment1-Caleb-Croff/blob/main/main.css)
+  - [Joshua Vink](https://gvsu-cis371.github.io/assignment1-JoshuaVink/) \| [CSS](https://github.com/GVSU-CIS371/assignment1-JoshuaVink/blob/main/main.css)
+
 ## Preparation
 
 - **IDE Setup:** Use [VS Code](https://code.visualstudio.com/) for editing and managing your code.
