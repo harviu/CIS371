@@ -69,3 +69,15 @@
 - [Java|Type scripte Array Operations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Higher-order Functions](https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained/)
 ```
+
+(content:references:w6)=
+
+## Week 6
+
+```{div} full-width
+- [Type Aliases vs. Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+- Midterm Exam
+  - [Guide](exams/midterm-guide)
+  - [Exercises](exams/midterm-exercises)
+  - [script async vs defer attributes](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html)
+```
