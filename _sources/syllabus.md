@@ -37,7 +37,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 3, 01/26 | [🎬](https://youtu.be/hrAmtImxens),[CSS 2](assets/pdf/CSS-II.pdf) | [🎬](https://youtu.be/PBVcwBJoVwI)[Grid & Flexbox](assets/pdf/CSS-Grid-Flexbox.pdf) \| [🎬](https://youtu.be/-QW07rtgZMA)[A1](assignments/css-html.md) | [Quiz 2](quizzes/2.md) | {ref}`resources <content:references:w3>` |
 | 4, 02/02 | [🎬](https://youtu.be/bxtmoU_GYKQ),[TypeScript 1](assets/pdf/TypeScript-I.pdf) | [🎬](https://youtu.be/YkB_Rgm17uA),[TypeScript 2](assets/pdf/TypeScript-II.pdf) | [Quiz 3](quizzes/3.md) | {ref}`resources <content:references:w4>` |
 | 5, 02/09 | [🎬, Docker SSH](https://youtu.be/f6lTFkLX024)<br> [🎬](https://youtu.be/2-yvAOsHAXk),[Term Project](project/term.md) | [🎬](https://youtu.be/c_d_z0ylYP4),[TypeScript 3](assets/pdf/TypeScript-III.pdf) | [🎬](https://youtu.be/UHfaS9lThGc),[TypeScript 4](assets/pdf/TypeScript-IV.pdf) | {ref}`resources <content:references:w5>` |
-| 6, 02/16 | [Quiz 4](quizzes/4.md) | TypeScript 5 | TypeScript 6 | Resources |
+| 6, 02/16 | [Quiz 4](quizzes/4.md) | [TypeScript 5](assets/pdf/TypeScript-V.pdf) | TypeScript 6 | Resources |
 | 7, 02/23 | HTTP \| JavaScript Modules | Vue.js 1 | Vue.js 2 \| A2 | Resources |
 | 8, 03/02 | Vue.js 3 | Quiz 5 | Promise | Resources |
 | 9, 03/09 | **Spring** | **Break** | **No Class** | Resources |
