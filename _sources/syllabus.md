@@ -31,7 +31,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 ## Tentative Schedule
 
 | Week | Monday | Wednesday | Friday | Resources |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1, 01/12 | [Syllabus](assets/pdf/Syllabus-Intro.pdf) \| [Introduction](assets/pdf/Introduction.pdf) | [🎬](https://youtu.be/TAWugCZ2yJ4),[Docker](assets/pdf/Docker.pdf) | [🎬](https://youtu.be/05DjAsggvbA),[HTML](assets/pdf/HTML.pdf) | {ref}`resources <content:references:w1>` |
 | 2, 01/19 | **MLK (No Class)** | [Quiz 1](quizzes/1.md) | [🎬](https://youtu.be/zziN4DBmo78),[CSS 1](assets/pdf/CSS-I.pdf) | {ref}`resources <content:references:w2>` |
 | 3, 01/26 | [🎬](https://youtu.be/hrAmtImxens),[CSS 2](assets/pdf/CSS-II.pdf) | [🎬](https://youtu.be/PBVcwBJoVwI)[Grid & Flexbox](assets/pdf/CSS-Grid-Flexbox.pdf) \| [🎬](https://youtu.be/-QW07rtgZMA)[A1](assignments/css-html.md) | [Quiz 2](quizzes/2.md) | {ref}`resources <content:references:w3>` |
@@ -41,7 +41,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 7, 02/23 | [Sass](assets/pdf/SASS.pdf) | HTTP \| JavaScript Modules | Vue.js 1 | {ref}`resources <content:references:w7>` |
 | 8, 03/02 | Vue.js 2 | Vue.js 3\| A2 | Quiz 5 | Resources |
 | 9, 03/09 | **Spring** | **Break** | **No Class** | Resources |
-| 10, 03/16 | Promise | Pinia 1 | Pinia 2 | A2 Review \| A3 | Resources |
+| 10, 03/16 | Promise | Pinia 1 | Pinia 2 \|A2 Review \| A3 | Resources |
 | 11, 03/23 | Quiz 6 | Vue Router | Vuetify 1 | Resources |
 | 12, 03/30 | A3 Review \| A4 | Vuetify 2 | Quiz 7 | Resources |
 | 13, 04/06 | Firestore 1 | Firestore 2 | Authentication \| Demo | Resources |
