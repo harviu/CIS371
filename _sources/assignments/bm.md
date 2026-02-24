@@ -57,7 +57,7 @@ By completing this assignment, you will practice:
 
           ```
 
-  3. Accept your instructor's [GitHub classroom invitation](https://classroom.github.com/a/rWofJd71) to set up your project repository.
+  3. Accept your instructor's [GitHub classroom invitation](https://classroom.github.com/a/4g9uZf0N) to set up your project repository.
      1. **Select Your Name:** ![select-name](../assets/img/github-classroom-selectname.png)
      2. **Initialize Your Assignment Repository:** ![init-repo](../assets/img/github-classroom-initrepo.png)
      3. **Clone the Repository:** ![clone](../assets/img/github-classroom-sshclone.png) You're now ready to clone the repository. In your `terminal`, use the following command with your SSH repository link to download the repository to your local machine:
@@ -166,7 +166,7 @@ Required behavior:
 
 #### Expected Outcome
 
-- [Expected Outcome Demo](https://gvsu-cis658.github.io/BeverageMaker/)
+- [Expected Outcome Demo](https://gvsu-cis371.github.io/BeverageMaker/)
 
 ## Grading Rubric
 
