@@ -38,13 +38,13 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 4, 02/02 | [🎬](https://youtu.be/bxtmoU_GYKQ),[TypeScript 1](assets/pdf/TypeScript-I.pdf) | [🎬](https://youtu.be/YkB_Rgm17uA),[TypeScript 2](assets/pdf/TypeScript-II.pdf) | [Quiz 3](quizzes/3.md) | {ref}`resources <content:references:w4>` |
 | 5, 02/09 | [🎬, Docker SSH](https://youtu.be/f6lTFkLX024)<br> [🎬](https://youtu.be/2-yvAOsHAXk),[Term Project](project/term.md) | [🎬](https://youtu.be/c_d_z0ylYP4),[TypeScript 3](assets/pdf/TypeScript-III.pdf) | [🎬](https://youtu.be/UHfaS9lThGc),[TypeScript 4](assets/pdf/TypeScript-IV.pdf) | {ref}`resources <content:references:w5>` |
 | 6, 02/16 | [Quiz 4](quizzes/4.md) | [🎬](https://youtu.be/PRdva1HdekQ),[TypeScript 5](assets/pdf/TypeScript-V.pdf) | [🎬](https://youtu.be/4_A2CHmnOMo),[TypeScript 6](assets/pdf/TypeScript-VI.pdf) | {ref}`resources <content:references:w6>` |
-| 7, 02/23 | [🎬](https://youtu.be/7c_s7qkldII),[Sass](assets/pdf/SASS.pdf) | [ HTTP](assets/pdf/HTTP.pdf) \| [JavaScript Modules](assets/pdf/JS-Modules.pdf) | Vue.js 1 | {ref}`resources <content:references:w7>` |
-| 8, 03/02 | Vue.js 2 | Vue.js 3\| A2 | Quiz 5 | Resources |
+| 7, 02/23 | [🎬](https://youtu.be/7c_s7qkldII),[Sass](assets/pdf/SASS.pdf) | [🎬](https://youtu.be/VtkIjhJ4zlg),[HTTP](assets/pdf/HTTP.pdf) \| [🎬](https://youtu.be/CyDkNlhXaIM),[A2](assignments/bm.md)<br> [🎬](https://youtu.be/C6GcUX9IVC0),[JavaScript Modules](assets/pdf/JS-Modules.pdf) | Vue.js 1 | {ref}`resources <content:references:w7>` |
+| 8, 03/02 | Vue.js 2 | Vue.js 3\| A3 | Quiz 5 | Resources |
 | 9, 03/09 | **Spring** | **Break** | **No Class** | Resources |
-| 10, 03/16 | Promise | Pinia 1 | Pinia 2 \|A2 Review \| A3 | Resources |
+| 10, 03/16 | Promise | Pinia 1 | Pinia 2 \|A2 Review \| A4 | Resources |
 | 11, 03/23 | Quiz 6 | Vue Router | Vuetify 1 | Resources |
-| 12, 03/30 | A3 Review \| A4 | Vuetify 2 | Quiz 7 | Resources |
+| 12, 03/30 | A4 Review \| A5 | Vuetify 2 | Quiz 7 | Resources |
 | 13, 04/06 | Firestore 1 | Firestore 2 | Authentication \| Demo | Resources |
-| 14, 04/13 | Fetch & Axios | A4 Review \| A5 | ExpressJS | Resources |
-| 15, 04/20 | Project Lab | A5 Review | Project Lab | Resources |
+| 14, 04/13 | Fetch & Axios | A5 Review \| A6 | ExpressJS | Resources |
+| 15, 04/20 | Project Lab | A6 Review | Project Lab | Resources |
 | 16, 04/27 | **Final Project Presentation** |  |  |  |
