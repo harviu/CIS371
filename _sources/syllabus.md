@@ -39,7 +39,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 5, 02/09 | [🎬, Docker SSH](https://youtu.be/f6lTFkLX024)<br> [🎬](https://youtu.be/2-yvAOsHAXk),[Term Project](project/term.md) | [🎬](https://youtu.be/c_d_z0ylYP4),[TypeScript 3](assets/pdf/TypeScript-III.pdf) | [🎬](https://youtu.be/UHfaS9lThGc),[TypeScript 4](assets/pdf/TypeScript-IV.pdf) | {ref}`resources <content:references:w5>` |
 | 6, 02/16 | [Quiz 4](quizzes/4.md) | [🎬](https://youtu.be/PRdva1HdekQ),[TypeScript 5](assets/pdf/TypeScript-V.pdf) | [🎬](https://youtu.be/4_A2CHmnOMo),[TypeScript 6](assets/pdf/TypeScript-VI.pdf) | {ref}`resources <content:references:w6>` |
 | 7, 02/23 | [🎬](https://youtu.be/7c_s7qkldII),[Sass](assets/pdf/SASS.pdf) | [🎬](https://youtu.be/VtkIjhJ4zlg),[HTTP](assets/pdf/HTTP.pdf) \| [🎬](https://youtu.be/CyDkNlhXaIM),[A2](assignments/bm.md)<br> [🎬](https://youtu.be/C6GcUX9IVC0),[JavaScript Modules](assets/pdf/JS-Modules.pdf) | [🎬](https://youtu.be/iG5Dalum-ew),[Vue.js 1](assets/pdf//VueJS-I.pdf) | {ref}`resources <content:references:w7>` |
-| 8, 03/02 | [🎬](https://youtu.be/-fkgg-MpgAQ),[Vue.js 2](assets/pdf/VueJS-II.pdf) | Vue.js 3\| A3 | Quiz 5 | Resources |
+| 8, 03/02 | [🎬](https://youtu.be/-fkgg-MpgAQ),[Vue.js 2](assets/pdf/VueJS-II.pdf) | [Vue.js 3](assets/pdf/VueJS-III.pdf) \| A3 | Quiz 5 | Resources |
 | 9, 03/09 | **Spring** | **Break** | **No Class** | Resources |
 | 10, 03/16 | Promise | Pinia 1 | Pinia 2 \|A2 Review \| A4 | Resources |
 | 11, 03/23 | Quiz 6 | Vue Router | Vuetify 1 | Resources |
