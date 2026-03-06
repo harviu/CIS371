@@ -41,28 +41,40 @@ In this assignment, you will leverage Vue.js to create a dynamic and interactive
 
 In this assignment, you will develop a Beverage Vue Application. Your objective is to enhance the application with additional choices for creamer, syrup, and base beverages, while ensuring proper UI behavior based on the customer's selections.
 
-1. Expand the selection options in the `App.vue` to include more varieties of creamer, syrup, and base beverages for customers to choose from:
-   - Creamer: No Creamer, Milk, Cream, Half & Half
-   - Syrup: No Syrup, Vanilla, Caramel, Hazelnut
-   - Base Beverage: Coffee, Green Tea, Black Tea
+### Task 1
 
-     ```{image} ../assets/img/project3-beverage1.jpg
-     :width: 300px
-     :name: beverage1
-     ```
+Expand the selection options in the `App.vue` to include more varieties of creamer, syrup, and base beverages for customers to choose from:
 
-2. Update the `Base.vue`, `Creamer.vue`, and `Syrup.vue` components to dynamically adjust their appearance based on the customer's selections.
+- Creamer: No Creamer, Milk, Cream, Half & Half
+- Syrup: No Syrup, Vanilla, Caramel, Hazelnut
+- Base Beverage: Coffee, Green Tea, Black Tea
 
-   Dynamically changing styles refers to visually altering the appearance of the beverage in response to the selected ingredients (e.g., different colors or textures for each creamer, syrup, and base beverage).
+  ```{image} ../assets/img/project3-beverage1.jpg
+  :width: 300px
+  :name: beverage1
+  ```
 
-3. In `Beverage.vue`, implement conditional rendering to ensure the beverage's visual presentation is logical based on customer selections:
-   - If "No Creamer" and "No Syrup" are selected, only display the base beverage in the mug.
-   - If "No Syrup" is selected and some creamer is chosen, display the creamer directly on top of the base beverage without any gap.
+### Task 2
 
-   ```{image} ../assets/img/project3-beverage2.jpg
-   :width: 300px
-   :name: beverage2
-   ```
+Update the `Base.vue`, `Creamer.vue`, and `Syrup.vue` components to dynamically adjust their appearance based on the customer's selections.
+
+Dynamically changing styles refers to visually altering the appearance of the beverage in response to the selected ingredients (e.g., different colors or textures for each creamer, syrup, and base beverage).
+
+### Task 3
+
+In `Beverage.vue`, implement conditional rendering to ensure the beverage's visual presentation is logical based on customer selections:
+
+- If "No Creamer" and "No Syrup" are selected, only display the base beverage in the mug.
+- If "No Syrup" is selected and some creamer is chosen, display the creamer directly on top of the base beverage without any gap.
+
+```{image} ../assets/img/project3-beverage2.jpg
+:width: 300px
+:name: beverage2
+```
+
+#### Expected Outcome
+
+- [Expected Outcome Demo](https://gvsu-cis371.github.io/CustomDrinkMaker/)
 
 ## Grading Rubrics
 
