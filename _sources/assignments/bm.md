@@ -13,10 +13,12 @@ By completing this assignment, you will practice:
 - DOM Manipulation: Update element classes and styles to reflect user choices.
 - CSS Variables: Use CSS custom properties (for example `--syrup-color`) to connect TypeScript state to CSS styling.
 
-## Best Solutions:
+## Best Solutions
 
--
--
+- Section 01
+  - [Joshua Johnson](https://gvsu-cis371.github.io/assignment2-josh111112/)
+- Section 02
+  - [Caleb Croff](https://gvsu-cis371.github.io/assignment2-Caleb-Croff/)
 
 ## Preparation
 
