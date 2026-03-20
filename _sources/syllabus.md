@@ -41,7 +41,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 7, 02/23 | [🎬](https://youtu.be/7c_s7qkldII),[Sass](assets/pdf/SASS.pdf) | [🎬](https://youtu.be/VtkIjhJ4zlg),[HTTP](assets/pdf/HTTP.pdf) \| [🎬](https://youtu.be/CyDkNlhXaIM),[A2](assignments/bm.md)<br> [🎬](https://youtu.be/C6GcUX9IVC0),[JavaScript Modules](assets/pdf/JS-Modules.pdf) | [🎬](https://youtu.be/iG5Dalum-ew),[Vue.js 1](assets/pdf//VueJS-I.pdf) | {ref}`resources <content:references:w7>` |
 | 8, 03/02 | [🎬](https://youtu.be/-fkgg-MpgAQ),[Vue.js 2](assets/pdf/VueJS-II.pdf) | [🎬](https://youtu.be/Sa742GRTACM),[Vue.js 3](assets/pdf/VueJS-III.pdf) \| [A3](assignments/cdm.md) | [Quiz 5](quizzes/5.md) | {ref}`resources <content:references:w8>` |
 | 9, 03/09 | **Spring** | **Break** | **No Class** |  |
-| 10, 03/16 | [🎬](https://youtu.be/XBEOWRKasBw),[Promise](assets/pdf/Promise.pdf) | [🎬](https://youtu.be/qqn2uPoj6Ng), A2 Review \| [Pinia 1](assets/pdf/Pinia.pdf) | [Pinia 2](assets/pdf/Pinia-II.pdf) \| [A4](assignments/bs.md) | {ref}`resources <content:references:w10>` |
+| 10, 03/16 | [🎬](https://youtu.be/XBEOWRKasBw),[Promise](assets/pdf/Promise.pdf) | [🎬](https://youtu.be/qqn2uPoj6Ng), A2 Review \| [Pinia 1](assets/pdf/Pinia.pdf) | [🎬](https://youtu.be/kgQ0T6BzmEk),[Pinia 2](assets/pdf/Pinia-II.pdf) \| [A4](assignments/bs.md) | {ref}`resources <content:references:w10>` |
 | 11, 03/23 | Quiz 6 | Vue Router | Vuetify 1 | Resources |
 | 12, 03/30 | A4 Review \| A5 | Vuetify 2 | Quiz 7 | Resources |
 | 13, 04/06 | Firestore 1 | Firestore 2 | Authentication \| Demo | Resources |
