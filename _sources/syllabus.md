@@ -42,7 +42,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 8, 03/02 | [🎬](https://youtu.be/-fkgg-MpgAQ),[Vue.js 2](assets/pdf/VueJS-II.pdf) | [🎬](https://youtu.be/Sa742GRTACM),[Vue.js 3](assets/pdf/VueJS-III.pdf) \| [A3](assignments/cdm.md) | [Quiz 5](quizzes/5.md) | {ref}`resources <content:references:w8>` |
 | 9, 03/09 | **Spring** | **Break** | **No Class** |  |
 | 10, 03/16 | [🎬](https://youtu.be/XBEOWRKasBw),[Promise](assets/pdf/Promise.pdf) | [🎬](https://youtu.be/qqn2uPoj6Ng), A2 Review \| [Pinia 1](assets/pdf/Pinia.pdf) | [🎬](https://youtu.be/kgQ0T6BzmEk),[Pinia 2](assets/pdf/Pinia-II.pdf) \| [A4](assignments/bs.md) | {ref}`resources <content:references:w10>` |
-| 11, 03/23 | [Quiz 6](quizzes/6.md) | [🎬](https://youtu.be/Dw_2jU9JOC8), [Vue Router](assets/pdf/Vue-Router.pdf) | [Vuetify 1](assets/pdf/Vuetify.pdf) | {ref}`resources <content:references:w11>` |
+| 11, 03/23 | [Quiz 6](quizzes/6.md) | [🎬](https://youtu.be/Dw_2jU9JOC8), [Vue Router](assets/pdf/Vue-Router.pdf) | [🎬](https://youtu.be/v_BG7UAP6B0), [Vuetify 1](assets/pdf/Vuetify.pdf) | {ref}`resources <content:references:w11>` |
 | 12, 03/30 | A4 Review \| A5 | Vuetify 2 | Quiz 7 | {ref}`resources <content:references:w12>` |
 | 13, 04/06 | Firestore 1 | Firestore 2 | Authentication \| Demo | Resources |
 | 14, 04/13 | Fetch & Axios | A5 Review \| A6 | ExpressJS | Resources |
