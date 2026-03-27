@@ -127,6 +127,10 @@
   - [Stylish Timers](https://play.vuejs.org/#eNqFVmtv2zYU/St3GgY4qF9Nh6HQbO/RFluHYgvq9ps+RJYomwlFCiSV2PP833dISrLktKmBACLv6/DwXN4co9+qavpQsyiOFibTvLJkmK0rEqncLpPImiRaJZKXldKWPvGSaSq0KimJpjO/dNFJ9HMiF7OQAO5YWFZWIrUMK6LF7uXqTyaEorU9CG52IZNZzGBw7nDJ+QPx3JX0Jl+W8FuEonFd5Uj3XlqmH1IBv5fzeRJRXKQZe6OE0ti61Sy/ReQiQLvIYGyq7Yd0w1z07R/q0nMxAwZ8LWY98AsDxO7j+4CLjs415wYOh5gKwfY4O9FdbSwvDpNMAaG0MZkKwCbsgUlxgMfJE9TkisZRx51jfkDWEy7cKX0kNjKUUaVjEaQ37k9DGnjwOB6p5LK2zNDpFGNlH9VbvuV2zYA0N6Mr7LcH75JtamuVpF8zwbN75NS19HgdEuRON4K5UuUhMPvdckmyFmKAyP1Qr9KqMtMz9SjXKzQLlZ6rXaW1YU311Y1bXER95dq+KeYjaVaMKWcFl+zGwRxTpsoKZOVjeuR295YVaS0sqGs132rdHioWNOwCaRlUQTQU6S8xaCk3THuFEJ1ZgMVYzeW2sXQi7htO+MMlGRtIRJU+qFEPeFC4+1yNrsZfBhMTGmY+vkQS41Rrt0qixtZhcSarUwkla0jaO5yuOlAmKAiwwONofja0gusZBMN2UEtMH1mxCLzQf143q8bVfTvvRBa1zCyHDJ7KtTmcxsVq2YKY4oA1m1r1QWWpYGtP4SiJmJx8XgM4LhuoeFmXjo4t0z6piema/Imgya5koM1hPVcblHnxork1XtBoYKElOuGneRfmfg0bF6FPkoKCeWMDmD6etvnOaGYz+uxBkt3hD0ZSMmOEx0YfmrQ0cteN6gLvbSh0FaKbe+jKokVajYzOZx83nTsUUcNVD925Pc/4HC/DKu0LMWAmEyzVXelBgKvTEXiB1+UZMNXqrvc2wq1t5RFwLVcXsumh2KTZ/VarWuaN6MO5uy5ousI1o5dKb8xdzIY2azccuBTo0MlGqOy+QbxROnc9cF3tySjBc9rq1M2Hs3Gi05zX0ObrKowWQt/ndocGvp53W5bt7SQVfCtjytCd3SNTpXkO8U82Cm9kGdOPPsTT5GE26FqwBebVxPB/GTC9nv9wOanCRSmtWWahNm6wyBnmlzUgveDb6Z1REjPMp8N8AutcMP1P5dSB9zZuCyVRin8AHv/ye1bXrCEWMTuW3X9h/87s3V4S3WhmIBI8vZ0NL9aW4Uly5nfrv0FGz1iqvHbz8RnjRwb2a4cxuP2O+wfsnp9H+96PCtD5ybzbY66b9lAOqPM8eX8/GN48c/Qz3FfTVz4OPEen/wF0mS//)
   - [Lifecycle Functions](https://play.vuejs.org/#eNqVVEtu2zAQvcqAaAEHSKSk3qmKi+azaIF80CY7LSJblMxEIgl+HKeGjtBFT9Ar9ggdkpIit06RrjyeefPmzYfakI9SRitLSUJSvVBMGtDUWAl1zqvjjBidkVnGWSOFMrABRUtooVSigYxgXkbeD9GbpW3m+lb24SjuPa6CRy4E1wYWwnIDx45sMt0buZGHU25OR/EjF0/joA2V4B9DG1nnhuI/gHR5NDvtE+GMNiKN0eVDtva/aNVsdiUpB7OkWIZrUVMw+RxECU/CKjhR4lFThfkruBGi1lEaY84oe47hFSYhQUHntqoYr0BYI60ZoGncVfR9o3xJ867bxMcZRziYJ0lxtAonjFOBpGEc/x55M1878xDt1UEjClpHHKmoQq/nwUAcas1VZ116gGtlGKD+r3LT3dXGy+jKetZhzUlocCRtdVAKl/wAjP+xTjyjdLgHpErj0RrJPhmfijvG7SUXbNUtY7MBqYTUUTfdtsWduNQP3bK0zPm2kDEeZfz6+eM7HhTCuqUF8i1Br3oLgl+4zmixj+atLDA1mLwJ/r9fittFuI5rFIUnvnESgrQEwvAR1g5vwmtHXEFLxqlL0mEBzpxN3OPI+CBkMtmD41kg7c48qkU1ycjzE2EaenlGwNnVRUYcS9tTDepfSVZQky+WyOZb3cEXBvMS290WmQ1geLMZL629GxhHX4JUm6faLctv3BOXgpsDzb7RBN4dHr51ST6lA+KZGY3FS1ZF91pwvDOfFq6d1VRdScNQXEaSQOhieV2Lx8/eZ5Sl+70fm1487PDf67XzZeRaUf/RyMgQM7mqKB6hC59/vaRrtIcgvkBbI/ofwS8UB2edxgA7sbxA2SOcV/vJnyh+oW70+dpQrvumnFCHbD3e36Wb/0utP8udRlOfhxMl7W/v6h3+)
 - [Computed Properties](https://vuejs.org/guide/essentials/computed.html)
+- [Slots](https://play.vuejs.org/#eNqFVE2P0zAQ/Ssj76GXbcMKVKEQKu2ilQAhQMAxFzeZJN51bMt2SpdV/ztjJ2mTgrqXKJ733ny8cfLMbo1Z7TpkKctcYYXx4NB3ZpMr0RptPdxxh1/4k+48VFa3sFglp1CQLnKVJb2WVHTw2BrJPdIJIDuR45kiIw67pZPapw3yEu2AEt7cbD6iRWhF3XjYInAwvEbwwkvMEoKHRMmk0hAym1siW15bbhqotAXfUCYuFBRaeVR+lSVhupGtSuBKE8mCVjiA541eVVr7aYsmdrhw4HSLMTMvPAhV6Un2aXvhOHNigrJrNnc0LGOuLcUOCsmde5+zWE0otDkbK507GGwFxVskeo8Rl5ZE4WNzM00WHJrrz/kTRnZux7Rej/1bb6LJEppn7kG8OM4/yX7gngzPvXjLi8fa6k6Vy0JLbVOQ4WpsZYfvBoa2NMzSa5PCjdnTWqQo4aooioEw6K7W6/UQqcjGpRN/MIVXq7fYxvAhPOJtuVy6tojqpOi9fEFTaMvlICFv4qy0eu9ooZWoVw9OK9p8TBK23Boh0X4zXmjlcpaO6XPGpdS/P8eYtx1ej/GiweLxP/EHtw+xnH236NDuMGdHzHNbo+/h+59fcU/vR7DVZSeJfQH8geR1F3rsaXc0NrU94cVuP8WfiVD1L3e/p8/QjUOFRqMpkZ8zuv4fLox+avf16s1g5oEd/gJzcpCg)
+- London Fog
+  - [Demo](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Components/LondonFog)
+  - [Code](https://github.com/GVSU-CIS371/london-fog)
 
 ```
 
@@ -135,10 +139,7 @@
 ## Week 10
 
 ```{div} full-width
-- [Slots](https://play.vuejs.org/#eNqFVE2P0zAQ/Ssj76GXbcMKVKEQKu2ilQAhQMAxFzeZJN51bMt2SpdV/ztjJ2mTgrqXKJ733ny8cfLMbo1Z7TpkKctcYYXx4NB3ZpMr0RptPdxxh1/4k+48VFa3sFglp1CQLnKVJb2WVHTw2BrJPdIJIDuR45kiIw67pZPapw3yEu2AEt7cbD6iRWhF3XjYInAwvEbwwkvMEoKHRMmk0hAym1siW15bbhqotAXfUCYuFBRaeVR+lSVhupGtSuBKE8mCVjiA541eVVr7aYsmdrhw4HSLMTMvPAhV6Un2aXvhOHNigrJrNnc0LGOuLcUOCsmde5+zWE0otDkbK507GGwFxVskeo8Rl5ZE4WNzM00WHJrrz/kTRnZux7Rej/1bb6LJEppn7kG8OM4/yX7gngzPvXjLi8fa6k6Vy0JLbVOQ4WpsZYfvBoa2NMzSa5PCjdnTWqQo4aooioEw6K7W6/UQqcjGpRN/MIVXq7fYxvAhPOJtuVy6tojqpOi9fEFTaMvlICFv4qy0eu9ooZWoVw9OK9p8TBK23Boh0X4zXmjlcpaO6XPGpdS/P8eYtx1ej/GiweLxP/EHtw+xnH236NDuMGdHzHNbo+/h+59fcU/vR7DVZSeJfQH8geR1F3rsaXc0NrU94cVuP8WfiVD1L3e/p8/QjUOFRqMpkZ8zuv4fLox+avf16s1g5oEd/gJzcpCg)
-- London Fog
-  - [Demo](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Components/LondonFog)
-  - [Code](https://github.com/GVSU-CIS371/london-fog)
+- [Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 - Pinia State
   - [Two-way Binding](https://stackblitz.com/edit/vitejs-vite-xp2qjr?file=src%2Fstores%2FItemStore.ts)
   - [v-for](https://stackblitz.com/edit/vitejs-vite-reponi?file=src%2Fstores%2FItemStore.ts)
@@ -147,4 +148,49 @@
   - [De-structure](https://stackblitz.com/edit/vitejs-vite-tjghxg?file=src%2FApp.vue,src%2Fstores%2FUserStore.ts)
 - Pinia Getters
   - [Getters](https://stackblitz.com/edit/vitejs-vite-2h63ty?file=src%2FApp.vue)
+- Pinia
+  - [Subscribe to actions](https://stackblitz.com/edit/vitejs-vite-71yy8b?file=src%2FApp.vue)
+  - [Subscribe to the state](https://stackblitz.com/edit/vitejs-vite-rkusk7?file=src%2FApp.vue)
+  - [Patch](https://stackblitz.com/edit/vitejs-vite-v9dz2p?file=src%2FApp.vue)
+  - [Shopping Cart Example](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/Pinia/ShoppingCart)
+  - [Refresh-proof your Pinia Stores](https://www.vuemastery.com/blog/refresh-proof-your-pinia-stores/)
+  - Online Doc
+    - [State](https://pinia.vuejs.org/core-concepts/state.html)
+    - [Getters](https://pinia.vuejs.org/core-concepts/getters.html)
+    - [Actions](https://pinia.vuejs.org/core-concepts/actions.html)
+```
+
+(content:references:w11)=
+
+## Week 11
+
+```{div} full-width
+- Vue Router
+  - [Offical Website](https://router.vuejs.org/)
+  - Weather App
+    - [Demo](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/VueRouter/WeatherApp)
+    - [Code](https://github.com/GVSU-CIS371/sample-code/tree/main/Vue.js/VueRouter/WeatherApp)
+  - Random User App
+    - [Demo](https://stackblitz.com/github/GVSU-CIS371/sample-code/tree/main/Vue.js/VueRouter/RandomUserApp)
+    - [Code](https://github.com/GVSU-CIS371/sample-code/tree/main/Vue.js/VueRouter/RandomUserApp)
+- Vueify
+  - [Offical Website](https://vuetifyjs.com/en/)
+  - [Online PlayGround](https://typescriptlang.org/play)
+  - [Material Colors](https://vuetifyjs.com/en/styles/colors/#material-colors)
+  - [Components](https://vuetifyjs.com/en/components/all/)
+  - [npm trend: bootstrap-vue vs element-ui vs vuetify](https://npmtrends.com/bootstrap-vue-vs-element-ui-vs-vuetify)
+  - [Material Design Icons](https://pictogrammers.com/library/mdi/)
+```
+
+(content:references:w12)=
+
+## Week 12
+
+```{div} full-width
+  - [Bottom sheet](https://play.vuetifyjs.com/#eNp9UsFOwzAM/RWTE0iUThyhm0CcuXGjHELmtRFpEiVuNTHt37HbdasEQqqq5Pn55b047weVkymfY7wbelQPqiLsotOEm9oDVFs7gHE653WtCPdUGPSEqVZjmQlD8Ukesv1GZuwLp1ODtQLhMvDirPmCV0GejKwZyy0iwRquxgUrVeUowooXzUAUumKiDkUXtujmVtayPiOdHIx8o9P2b5/Qom1a8XK/Wp1tL9oKoS/gc6ZBJ6u9dArj3wR8dMgIlyALMb7BzVtrM/CnYQoGkwK1mgTus/UN73AKBjGFWJXSuHDL2r/tzug8DTGwuLpphielqlyMlrfZJBsJnPaNZMyckA/v49hkuxgSwQES7uAIu8Sma8VPpFaPUjfBZzrFWAvpeqddxhsuVuWkzDrqeOt758bfxw/KS8kK)
+  - [Buttons](https://play.vuetifyjs.com/#eNrFldtOwzAMhl+lqrgk7H4aSPAM3DEuvNQbgdSJctg4iHfHydauhZ0QVJu0SrGT/7Nj1334KL2To1trr5YRy3E5CVhbDQFvplQUk6WQhgIoQpcN2eTMqgCtFnQ9LSVSQDcti+fog5q/dUybAxsVXfDfsxtiMB1nds8CFRWSVyELmNqCDCyqmM6GulLC6uj52GSUd2+1ec3CvP4DbW5cgJnGLfGCbyOlMwixwjlE/S0/Y5GEIkG4OghtVlyENoTBatKJD6Q0kVLQXr0jG1+Fr0Hrf7yhH9VuUAOBBijyvoI2mWhwC26zIXgSNFIFqe5thY7j+u00aDOB5RupxGk9dW/qw0GfSrUOz4Hdm6yQysk8anZEJp9QvrQ7Oqqs2wzmYim8NmG8Od7blPFJL4VnXHp1opTom8mZXH3VUW/eN7+7GIJpW3Enfp3gEfoKHCla/Ip+eq+uPdvPU0+u/LykqHV+PH4BXBIgSA==)
+  - [Cards](https://play.vuetifyjs.com/#eNqtVtuO2zYQ/RVWQIsWWMZrr7NYOJu0WzSLvBQF0hb7EOeBlsYWs9QFJOVLDP97ZkiJoiw/JEhebM9FM2fOHFL+cEyMTicPdf1i20CySO4tFLUSFt4sS8butzwVOmOpEsa8XibFnovGVsuEFWLPdzKzOXpvbu+WicsPT3CJdZiVVgEmPKpKy0yEJEzr2rAtN6qyC9OsXHbIcKVkWpW9g/U4gE9ZveLTZTIIV9gIw6B1pYchqkQPZpILBdoOo0Z+JpxTnKN3v7mfeASIqfe+3VsNBbAnEDYHzR5ctW6syYA+ckR8hDodSRb2NsxUH/h1zNCW62rHhJIbAp5CaQFnYmXFN43F32ZIFc4eSlFdns8wG73kuMXC7Hb+SwabV48eVKUGY12qoOUmR6LiIjFp7X7OWY+p3nmSeN5oLVNRAoZbru9IMxHDoWoA19tIxDmfBLDnM5PbAD3jawV7hnTesE+NsXJ94KYWKfAV2B1AOSRZSWO9WjMojbQHIrsq8AEavdZQQ4nrG8+0k2V2GFASV+NB0NPZDXsuJjlBvxCO5wzhaDXfA7GuGi3LzVeAnN/9/I34vA+Jj1UN+1ogFKsF4ZTRYt2KcNlrEorLGqKKN4irQ+2ea80omeEJiJwMCxZVBooEKwsU1zC6wEvK6/bMbyzUdNxHASvTZ0KgxAqUOQ9Ht+B8FGsPQa1lITTqYhi+sLhhgsmrHe/aC7UTh1F7mzfFindXFd4Vw3CO9PAMrJCIPIq4Q+bJGxyzeHWRMMKUq43fYy003j3jfQQxnK9k7YhwepUlQwtSYUYDL56B6KC0F5kYEbYQdaxql+beBqNdtkLtkugCvrDXKGPUbTjZBZ3H/uhAeAa74CXth4OBqW4BlNj9Pn8boCrwqf5aR//KluyPVKEswrFhr9lPFw7Q8di52e8M37iNUuw91BW96dgCPe+wZ+85neJzjW3O79cYTOdEY/CCQ9OkWtaWKVFu6BCiZpkB29TuOVlQN3ZkGtbsxNa6KhAI/s9YJq/88LhQVJw/bTgY5v169ECuCfO//y+TK29Pyf77n2DPyP6vj9+Q/fT2r+CYu4R3wX5J9uP7YN+6Bg+tffoNEXV4AtGEZy2UgThKN00bu479ndDb2Affph0HbwBxcIgaME6ALQz/z4Qi7uLOUXV8JZBPfF+ZpizjTKKeMmfz5XL/5/VkOnPfIePUfp/3fIKs/AFdfbfJ1Hcfdw0j4tu+7TZok6qqQdFe9RVfthX9N8nS1fpItN5PvLZQScnpqkQ9u4+PXwDr5y91)
+  - [Dialogs](https://play.vuetifyjs.com/#eNrNV99v2zYQ/lcOevHWRXPSpfuRucG6oMMKbECxYNhD3QeGPNu3UCRLUk6CIP97j3QkS7KtpxZwgBgS77vjfXdH6dOHxyJ4OX3j3PfrGouLYhaxclpEvJwbgJmiNUgtQng9L5wozyHifSwlmoh+XmQMo9alIqHtEtZlZRVqBm8W5gVU4r68IxVXvPjj6WnrxG7NVuwWtI0XQkZai2g9Qx/BeevCBbSL79M9PHUC5J1votneQ5tsztNYg7CwJpZ3SMtVLD0uay04866L8+jQqJKkNexZKSqFlLY2sY9LIdn+VlEETmZBGvuAtfAkTMJEa4QeGMsbMoptfUJd0OVsmvlsKzTtdKNdXJdSeDWaNkSKGnn134B+m2y/cilKmUh1lrPB2ztQaMJmBnomaTXwf6rw2cvU3cTonC9Clfrb26J1yr1YEGoFWtzk8fiDfIhgRIUv2Nnjp5o8qlyALXq4PRt5704pvlRaQyPAinIf8V5w/RHsAlaoHdcyOYE1+oF/eLRk3etg89fQ/JuUYvfEcxd2zGyZaqAQ+Zx3iY9R/UtsG7qL2sYr02a7gGYEjqVILa+3lSB9nEPapPieH3l31qu9lY8PLj0I3DNmH+TYan+Y6ZU1C/IVHD3jMaIBNco9R+CC+GmfInyYnJZnP01OYHL2c/nyl3Txw2n56jxdvDr/bvJx7By+We4/gaOUNyl9Hbqijlba9GCJOEZ61wYwub4lMsvJyV7jO4mwsvIWHw4Arq2U6A8YfxfhFuON0PoA4M+x0P+gUIcz+89TPGy9siOunBb+X1dun3m08e+SJsMQ976QUhOeu8yjze/eXUhV60jcpb0D0m3iwTHpr7GKGIzOLFRc7b5Ek8JF4ldpvqlQUV2VrHlWgl8XQyKXL1hBkWQ5FNpxhnxQZ9Mcugvvap2UYUfs9FQQK1xS6DPL5noAyb5JtlkThlopOMEjtjlEm8sB56zoGu14pW1gJdBRiqzuyPDKb1KTvG2FM7yGhdAJ2xGFu3H79eEuZO3sPFXCPwzL95zDtVjviJFR5QqHk+sVfKheO4UfFq8xNB8QufYp9OarY8qN4KuB/J0F6clFHnizTJnyfEDAWLvsRJWzPsIjT8YCnmDhbQXzgj9q5sWvm9KxTmaJ0lJg3DeZxrds5wHKwTlU8XRiaq3zz8fPt8yPug==)
+  - [v-data-table](https://play.vuetifyjs.com/#eNqFkltrwkAQhf/KkBdfvNTWFpUoCMWUXqjUvqkPk2SIW9fdsDuxWPG/N+ZiIyn4kmRP5pzvLMzi4FgTdCZx3N4l5Awdl2kbS2QaLxWAu2thHGef2SHQilEoMoWUiSEythh9STAUqd2Olo6v9cYunbHbqf4vg1LxMumk5CC3UymQHm1gRMxgiZO8R2q0DFk+jGCRJx7KOixY0hAan2sCzxAyeMjW3zea5QQmvNYmHZm2YR5oZpgK/onIoAz/piJSJssxGFFYse8JU3N3cHtfSMfiXa+g4UVICQhvOtgIFfnCVAjnHk9oYjLwSlTHz3U6RUaBp3ktgnqNh5trNbqDfu8fqkfaRATv5pukrIMf95Z1LFDVkb3BNeTMiJAAVQgzQ19JKILK1c4NnlERTBLLVIGU/A+9RVW1FfR+9+6CvjptTL4j6XY4x6ZKpMweq191FduV)
+
 ```
