@@ -43,7 +43,7 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 9, 03/09 | **Spring** | **Break** | **No Class** |  |
 | 10, 03/16 | [🎬](https://youtu.be/XBEOWRKasBw),[Promise](assets/pdf/Promise.pdf) | [🎬](https://youtu.be/qqn2uPoj6Ng), A2 Review \| [Pinia 1](assets/pdf/Pinia.pdf) | [🎬](https://youtu.be/kgQ0T6BzmEk),[Pinia 2](assets/pdf/Pinia-II.pdf) \| [A4](assignments/bs.md) | {ref}`resources <content:references:w10>` |
 | 11, 03/23 | [Quiz 6](quizzes/6.md) | [🎬](https://youtu.be/Dw_2jU9JOC8), [Vue Router](assets/pdf/Vue-Router.pdf) | [🎬](https://youtu.be/v_BG7UAP6B0), [Vuetify 1](assets/pdf/Vuetify.pdf) | {ref}`resources <content:references:w11>` |
-| 12, 03/30 | [🎬](https://youtu.be/pVXPSibOyP4), [Vuetify 2](assets/pdf/Vuetify-II.pdf) | A3 & A4 Review | Quiz 7 | {ref}`resources <content:references:w12>` |
+| 12, 03/30 | [🎬](https://youtu.be/pVXPSibOyP4), [Vuetify 2](assets/pdf/Vuetify-II.pdf) | [🎬](https://youtu.be/zSsNrAgm8xQ), A3 & A4 Review | Quiz 7 | {ref}`resources <content:references:w12>` |
 | 13, 04/06 | Firestore 1 | Firestore 2 \| A5 | Authentication \| Demo | Resources |
 | 14, 04/13 | Fetch & Axios | A5 Review \| A6 | ExpressJS | Resources |
 | 15, 04/20 | Project Lab | A6 Review | Project Lab | Resources |
