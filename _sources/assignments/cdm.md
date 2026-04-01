@@ -13,6 +13,14 @@ In this assignment, you will leverage Vue.js to create a dynamic and interactive
 
 ## Best Solutions
 
+- Section 01
+  - [Leah Barnes](https://gvsu-cis371.github.io/assignment3-leahbarnes)
+  - [Lauren Brown](https://gvsu-cis371.github.io/assignment3-laurenbrown14/)
+  - [Elle Miller](https://gvsu-cis371.github.io/assignment3-elle108/)
+  - [Aaron Roe](https://gvsu-cis371.github.io/assignment3-Aaron-Roe/)
+  - [Chase Sloma](https://gvsu-cis371.github.io/assignment3-slomac1/)
+  - [Chad VanderWall](https://gvsu-cis371.github.io/assignment3-CVwall/)
+
 - Section 02
   - [Caleb Croff](https://gvsu-cis371.github.io/assignment3-Caleb-Croff/)
   - [Noelia Doman](https://gvsu-cis371.github.io/assignment3-Noeliadoman)
