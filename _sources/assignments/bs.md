@@ -13,6 +13,7 @@ In this homework, you will extend your previous project Custom Drink Maker by bu
 
 - Section 02
   - [Marcus Abad-Dominguez](https://gvsu-cis371.github.io/assignment4-mabaddomm/)
+  - [William Terpstra](https://gvsu-cis371.github.io/assignment4-Watterpstra/)
 
 ## Instructions
 
