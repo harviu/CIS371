@@ -11,6 +11,10 @@ In this homework, you will extend your previous project Custom Drink Maker by bu
 
 ## Best Solutions
 
+- Section 01
+  - [Aaron Roe](https://gvsu-cis371.github.io/assignment4-Aaron-Roe/)
+  - [Connor Valley](https://gvsu-cis371.github.io/assignment4-connor-valley1/)
+
 - Section 02
   - [Marcus Abad-Dominguez](https://gvsu-cis371.github.io/assignment4-mabaddomm/)
   - [William Terpstra](https://gvsu-cis371.github.io/assignment4-Watterpstra/)
