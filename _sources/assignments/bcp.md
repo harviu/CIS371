@@ -159,7 +159,7 @@ You should also add:
 - Each user can view only their own saved beverages
 - Selecting a saved beverage updates the preview in the mug
 
-Reference demo: [Expected Outcome Demo](https://gvsu-cis371.github.io/BrewPortal/)
+Reference demo: [Expected Outcome Demo](https://gvsu-cis371.github.io/BrewPortalInTheCloud/)
 
 ## Grading Rubric
 
