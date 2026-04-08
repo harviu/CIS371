@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Brew Portal in the Cloud &#8212; GVSU CIS 371 - Web Application Programming</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/bcp';</script>
+    <link rel="icon" href="https://www.gvsu.edu/cms4/asset/94807988-C47A-2A7B-05628C365AC3C2FA/gvsu_avatar_3[1678817053].jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../syllabus.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.jpg" class="logo__image only-light" alt="GVSU CIS 371 - Web Application Programming - Home"/>
+    <img src="../_static/logo.jpg" class="logo__image only-dark pst-js-only" alt="GVSU CIS 371 - Web Application Programming - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../syllabus.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">Resources</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="css-html.html">1. CSS + HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bm.html">2. Beverage Maker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cdm.html">3. Custom Drink Maker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bs.html">4. Brew &amp; Save</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../project/term.html">Term Project</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GVSU-CIS371/gvsu-cis371.github.io" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GVSU-CIS371/gvsu-cis371.github.io/issues/new?title=Issue%20on%20page%20%2Fassignments/bcp.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/assignments/bcp.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Brew Portal in the Cloud</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions">Instructions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#firebase-setup">1. Firebase Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#firestore-initialization">2. Firestore Initialization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pinia-store-updates">2. Pinia Store Updates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-login-and-auth-state">3. Google Login and Auth State</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ui-and-ux-requirements">4. UI and UX Requirements</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-outcome">Expected Outcome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grading-rubric">Grading Rubric</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deliverables">Deliverables</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="brew-portal-in-the-cloud">
+<h1>Brew Portal in the Cloud<a class="headerlink" href="#brew-portal-in-the-cloud" title="Link to this heading">#</a></h1>
+<p>— Firestore + Authentication</p>
+<p>In this homework, you will extend your previous project <strong>Brew &amp; Save</strong> by moving beverage ingredient data from static .json files to Firebase Firestore, and then adding Firebase Authentication so each signed-in user can create and manage only their own saved beverages.</p>
+<section id="objectives">
+<h2>Objectives<a class="headerlink" href="#objectives" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Configure Firebase and connect your Vue app to Firestore</p></li>
+<li><p>Load base ingredients (bases, creamers, and syrups) from Firestore</p></li>
+<li><p>Configure Firebase Authentication with Google Sign-In</p></li>
+<li><p>Protect the beverage dashboard so only signed-in users can create and view saved beverages</p></li>
+<li><p>Save user-created beverages to Firestore with user ownership</p></li>
+<li><p>Dynamically display only the beverages that belong to the current signed-in user</p></li>
+<li><p>Strengthen your understanding of state management with Pinia</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Link to this heading">#</a></h2>
+<p>Accept your instructor’s <a class="reference external" href="https://classroom.github.com/a/elA1ugEa">GitHub Classroom invitation</a> to create your project repository.</p>
+<p>You may copy all necessary code from your previous project <strong>Custom Drink Maker</strong> or <strong>Brew &amp; Save</strong>, excluding the .json files in the data/ folder.</p>
+<hr class="docutils" />
+<section id="firebase-setup">
+<h3>1. Firebase Setup<a class="headerlink" href="#firebase-setup" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Follow the exercise on the last page of this <a class="reference download internal" download="" href="../_downloads/079c3c1f2782ef0eab452df797b72f5a/Firestore-I.pdf"><span class="xref download myst">Firestore slide</span></a>.</p></li>
+<li><p>Copy your Firebase config into the firebase.ts file provided in your repository.</p></li>
+<li><p>Enable Cloud Firestore.</p></li>
+<li><p>Enable Firebase Authentication and turn on Google Sign-In.</p></li>
+</ul>
+<p>Your Firebase setup should work so that:</p>
+<ul class="simple">
+<li><p>Firestore can store and load beverage data</p></li>
+<li><p>Authentication can detect login and logout changes</p></li>
+<li><p>Your app can connect beverages to the currently signed-in user</p></li>
+</ul>
+</section>
+<section id="firestore-initialization">
+<h3>2. Firestore Initialization<a class="headerlink" href="#firestore-initialization" title="Link to this heading">#</a></h3>
+<p>Set up the following Firestore collections and documents using following data:</p>
+<p><code class="docutils literal notranslate"><span class="pre">bases</span></code> collection</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b1&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Black Tea&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#8B4513&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b2&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Green Tea&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#C8E6C9&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b3&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Coffee&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#6F4E37&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">creamers</span></code> collection</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;c1&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;No Cream&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;transparent&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;c2&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Milk&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AliceBlue&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;c3&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Cream&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#F5F5DC&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;c4&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Half &amp; Half&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#FFFACD&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">syrups</span></code> collection</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s1&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;No Syrup&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;transparent&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s2&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Vanilla&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#FFEFD5&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s3&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Caramel&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#DAA520&quot;</span><span class="w"> </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s4&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Hazelnut&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;color&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;#6B4423&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</section>
+<section id="pinia-store-updates">
+<h3>2. Pinia Store Updates<a class="headerlink" href="#pinia-store-updates" title="Link to this heading">#</a></h3>
+<p>Update your <code class="docutils literal notranslate"><span class="pre">beverageStore.ts</span></code> so that it manages ingredient data, authentication state, and user-specific beverages.</p>
+<p>Your store should:</p>
+<ul class="simple">
+<li><p>Implement the <code class="docutils literal notranslate"><span class="pre">init()</span></code> action in the Pinia store (<code class="docutils literal notranslate"><span class="pre">beverageStore.ts</span></code>) to:</p>
+<ul>
+<li><p>Load data from <code class="docutils literal notranslate"><span class="pre">bases</span></code>, <code class="docutils literal notranslate"><span class="pre">creamers</span></code>, and <code class="docutils literal notranslate"><span class="pre">syrups</span></code> collections in Firestore</p></li>
+<li><p>Set this data to the store’s <code class="docutils literal notranslate"><span class="pre">bases</span></code>, <code class="docutils literal notranslate"><span class="pre">creamers</span></code>, and <code class="docutils literal notranslate"><span class="pre">syrups</span></code> states</p></li>
+<li><p>Set default values for <code class="docutils literal notranslate"><span class="pre">currentBase</span></code>, <code class="docutils literal notranslate"><span class="pre">currentCreamer</span></code>, and <code class="docutils literal notranslate"><span class="pre">currentSyrup</span></code></p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">init()</span></code> before rendering the app.</p></li>
+</ul>
+</li>
+<li><p>Include a <code class="docutils literal notranslate"><span class="pre">setUser(user:</span> <span class="pre">User</span> <span class="pre">|</span> <span class="pre">null)</span></code> action that:</p>
+<ul>
+<li><p>You may need to declare a user state in the store, so in setUser() you can save the current Firebase user in a user state.</p></li>
+<li><p>Detaches the previous Firestore listener when the user changes or logs out.</p></li>
+<li><p>Starts a new listener that watches only the beverages created by that user.</p></li>
+<li><p>Updates beverage data when Firestore reports changes,</p></li>
+<li><p>Sets <code class="docutils literal notranslate"><span class="pre">currentBeverage</span></code> correctly when the beverage list updates.</p></li>
+</ul>
+</li>
+<li><p>Beverage Creation and Display:</p>
+<ul>
+<li><p>Include a <code class="docutils literal notranslate"><span class="pre">makeBeverage()</span></code> action that:</p>
+<ul>
+<li><p>When the <code class="docutils literal notranslate"><span class="pre">&quot;Make</span> <span class="pre">Beverage&quot;</span></code> button is clicked, checks whether a user is signed in,</p></li>
+<li><p>Checks whether all required fields are filled in,</p></li>
+<li><p>Builds a unique beverage id,</p></li>
+<li><p>Store the current beverage document to Firestore <code class="docutils literal notranslate"><span class="pre">beverages</span></code> collection.</p></li>
+<li><p>Updates the store state so the UI responds at once,</p></li>
+<li><p>Returns a short message such as:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">&quot;Beverage</span> <span class="pre">&lt;name&gt;</span> <span class="pre">made</span> <span class="pre">successfully!&quot;</span></code>,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&quot;No</span> <span class="pre">user</span> <span class="pre">logged</span> <span class="pre">in,</span> <span class="pre">please</span> <span class="pre">sign</span> <span class="pre">in</span> <span class="pre">first.&quot;</span></code>,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&quot;Please</span> <span class="pre">complete</span> <span class="pre">all</span> <span class="pre">beverage</span> <span class="pre">options</span> <span class="pre">and</span> <span class="pre">the</span> <span class="pre">name</span> <span class="pre">before</span> <span class="pre">making</span> <span class="pre">a</span> <span class="pre">beverage.&quot;</span></code></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="google-login-and-auth-state">
+<h3>3. Google Login and Auth State<a class="headerlink" href="#google-login-and-auth-state" title="Link to this heading">#</a></h3>
+<p>Update your <code class="docutils literal notranslate"><span class="pre">App.vue</span></code> component so the UI responds to login changes.</p>
+<p>Your app should:</p>
+<ul class="simple">
+<li><p>Before the user signs in</p>
+<ul>
+<li><p>Show a Sign in with Google button that calls withGoogle() when clicked, and no Sign out button.</p></li>
+<li><p>The “Make Beverage” button should be disabled.</p></li>
+<li><p>No saved beverages should be displayed.</p></li>
+</ul>
+</li>
+<li><p>After the user signs in</p>
+<ul>
+<li><p>Show the signed-in user’s name (or email).</p></li>
+<li><p>Show a Sign out button, and clicking it should log the user out.</p></li>
+<li><p>Load and display only the beverages that belong to the signed-in user.</p></li>
+<li><p>The Make Beverage button should be available, and clicking it should create a beverage under the current signed-in user.</p></li>
+</ul>
+</li>
+</ul>
+<p>The <code class="docutils literal notranslate"><span class="pre">withGoogle()</span></code> function should:</p>
+<ul class="simple">
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">GoogleAuthProvider</span></code>Sign in the user,</p></li>
+<li><p>Handle errors by showing a message in the UI,</p></li>
+<li><p>Let the Firestore listener update the store through <code class="docutils literal notranslate"><span class="pre">setUser()</span></code>.</p></li>
+</ul>
+</section>
+<section id="ui-and-ux-requirements">
+<h3>4. UI and UX Requirements<a class="headerlink" href="#ui-and-ux-requirements" title="Link to this heading">#</a></h3>
+<p>Your interface should keep all controls from the previous project:</p>
+<ul class="simple">
+<li><p>Temperature selection,</p></li>
+<li><p>Base selection,</p></li>
+<li><p>Syrup selection,</p></li>
+<li><p>Creamer selection,</p></li>
+<li><p>Beverage name input,</p></li>
+<li><p>The beverage preview component.</p></li>
+</ul>
+<p>You should also add:</p>
+<ul class="simple">
+<li><p>A Google Sign-In button,</p></li>
+<li><p>A clear display of the current signed-in user,</p></li>
+<li><p>A message area for login errors and success messages,</p></li>
+<li><p>Use <a class="reference external" href="https://firebase.google.com/docs/auth/web/manage-users">onAuthStateChanged</a> to monitor the current authentication state.</p></li>
+<li><p>Show saved beverages for the current user:</p>
+<ul>
+<li><p>Use radio buttons or a simple selection interface,</p></li>
+<li><p>Update the preview when the selection changes,</p></li>
+<li><p>Show nothing when the user has no saved beverages.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="expected-outcome">
+<h2>Expected Outcome<a class="headerlink" href="#expected-outcome" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Ingredient options are loaded from Firestore</p></li>
+<li><p>Users can sign in with Google</p></li>
+<li><p>Only signed-in users can create beverages</p></li>
+<li><p>Saved beverages are stored in Firestore with user ownership</p></li>
+<li><p>Each user can view only their own saved beverages</p></li>
+<li><p>Selecting a saved beverage updates the preview in the mug</p></li>
+</ul>
+<p>Reference demo: <a class="reference external" href="https://gvsu-cis371.github.io/BrewPortal/">Expected Outcome Demo</a></p>
+</section>
+<section id="grading-rubric">
+<h2>Grading Rubric<a class="headerlink" href="#grading-rubric" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Grading Item</p></th>
+<th class="head text-right"><p>Points</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Firebase setup and Firestore initialization</p></td>
+<td class="text-right"><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ingredient loading with init() and Pinia state management</p></td>
+<td class="text-right"><p>15</p></td>
+</tr>
+<tr class="row-even"><td><p>Google Sign-In works correctly and login state is tracked</p></td>
+<td class="text-right"><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>Before login: Make Beverage is disabled and no saved beverages are shown</p></td>
+<td class="text-right"><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>After login: beverages can be created and linked to the current user</p></td>
+<td class="text-right"><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>Only the current user’s beverages are loaded and displayed</p></td>
+<td class="text-right"><p>15</p></td>
+</tr>
+<tr class="row-even"><td><p>Login state changes behave correctly (logout clears UI, re-login loads correct beverages)</p></td>
+<td class="text-right"><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>GitHub Clone, Commit, Push, &amp; Deploy to GitHub Pagesl</p></td>
+<td class="text-right"><p>10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="deliverables">
+<h2>Deliverables<a class="headerlink" href="#deliverables" title="Link to this heading">#</a></h2>
+<ul>
+<li><p>Deploy your web application using the following commands in your <code class="docutils literal notranslate"><span class="pre">terminal</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="w"> </span>npm<span class="w"> </span>run<span class="w"> </span>build
+<span class="w"> </span>npm<span class="w"> </span>run<span class="w"> </span>deploy
+</pre></div>
+</div>
+</li>
+<li><p>Github Page Setup</p>
+<ul class="simple">
+<li><p>Set up your GitHub repository for GitHub Pages deployment. Follow the steps shown in the image below: <img alt="Layout" src="../_images/github-page.png" />.</p></li>
+<li><p>Your web application will be accessible at the URL: <a class="reference external" href="http://gvsu-cis371.github.io/YOUR-REPO">gvsu-cis371.github.io/YOUR-REPO</a></p></li>
+</ul>
+</li>
+<li><p>Submit the URL of your GitHub Page in Blackboard.</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./assignments"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructions">Instructions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#firebase-setup">1. Firebase Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#firestore-initialization">2. Firestore Initialization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pinia-store-updates">2. Pinia Store Updates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#google-login-and-auth-state">3. Google Login and Auth State</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ui-and-ux-requirements">4. UI and UX Requirements</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-outcome">Expected Outcome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#grading-rubric">Grading Rubric</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deliverables">Deliverables</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr.Yong Zhuang
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
