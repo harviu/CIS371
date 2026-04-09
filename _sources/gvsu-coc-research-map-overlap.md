@@ -203,4 +203,5 @@ Research in bioinformatics, computational biology, digital health, medical infor
 - [Suhila Sawesi](https://www.gvsu.edu/computing/sawesi-suhila-60)
 - [Kevin Maupin](https://www.gvsu.edu/computing/maupin-kevin-195)
 - [Samir Iqbal](https://www.gvsu.edu/computing/iqbal-samir-253)
+- [Rajvardhan Patil](https://www.gvsu.edu/computing/patil-rajvardhan-75)
 - [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
