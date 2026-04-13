@@ -45,6 +45,6 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 11, 03/23 | [Quiz 6](quizzes/6.md) | [🎬](https://youtu.be/Dw_2jU9JOC8), [Vue Router](assets/pdf/Vue-Router.pdf) | [🎬](https://youtu.be/v_BG7UAP6B0), [Vuetify 1](assets/pdf/Vuetify.pdf) | {ref}`resources <content:references:w11>` |
 | 12, 03/30 | [🎬](https://youtu.be/pVXPSibOyP4), [Vuetify 2](assets/pdf/Vuetify-II.pdf) | [🎬](https://youtu.be/zSsNrAgm8xQ), A3 & A4 Review | [Quiz 7](quizzes/7.md) | {ref}`resources <content:references:w12>` |
 | 13, 04/06 | [🎬](https://youtu.be/e3lZndY0loU), [Firestore 1](assets/pdf/Firestore-I.pdf) | [🎬](https://youtu.be/wUc2kFMpQJI), [Firestore 2](assets/pdf/Firestore-II.pdf) \| [A5](assignments/bpc.md) | [🎬](https://youtu.be/XjZLX46ptXc), [Authentication](assets/pdf/Authentication.pdf) | {ref}`resources <content:references:w13>` |
-| 14, 04/13 | [Fetch & Axios](assets/pdf/Fetch-Axios.pdf) | Cloud Functions | AI Discussion | Resources |
+| 14, 04/13 | [🎬](https://youtu.be/IwYeOEM7CcM), [Fetch & Axios](assets/pdf/Fetch-Axios.pdf) | Cloud Functions | AI Discussion | Resources |
 | 15, 04/20 | A5 Review | Hackathon | Project Lab | Resources |
 | 16, 04/27 | **Final Project Presentation** |  |  |  |
