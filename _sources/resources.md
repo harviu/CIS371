@@ -206,3 +206,19 @@
 - [Firebase CRUD Operations and Listener](https://github.com/GVSU-CIS371/sample-code/tree/main/Firebase/Firestore/CRUD)
 - [Firebase Authentication](https://github.com/GVSU-CIS371/sample-code/tree/main/Firebase/Authentication/SigninSignup)
 ```
+
+(content:references:w14)=
+
+```{div} full-width
+## Week 14
+
+- Microsoft recently reported a supply chain compromise affecting Axios versions 1.14.1 and 0.30.4. If you are using Axios in personal projects, please review the information below and be mindful of package versions and dependency security. Here is the link: https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/
+- Random Users Web Service
+  - [Documentation](https://randomuser.me/documentation)
+  - Service Endpoint: https://randomuser.me/api
+- Random Quotes
+  - [Documentation](https://github.com/lukePeavey/quotable)
+  - Service Endpoint: https://api.quotables.io
+- [A gazillion more Web Services](https://github.com/public-apis/public-apis)
+- [Cloud Functions for Firebase](https://firebase.google.com/docs/functions)
+```
