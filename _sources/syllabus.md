@@ -46,5 +46,5 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 12, 03/30 | [🎬](https://youtu.be/pVXPSibOyP4), [Vuetify 2](assets/pdf/Vuetify-II.pdf) | [🎬](https://youtu.be/zSsNrAgm8xQ), A3 & A4 Review | [Quiz 7](quizzes/7.md) | {ref}`resources <content:references:w12>` |
 | 13, 04/06 | [🎬](https://youtu.be/e3lZndY0loU), [Firestore 1](assets/pdf/Firestore-I.pdf) | [🎬](https://youtu.be/wUc2kFMpQJI), [Firestore 2](assets/pdf/Firestore-II.pdf) \| [A5](assignments/bpc.md) | [🎬](https://youtu.be/XjZLX46ptXc), [Authentication](assets/pdf/Authentication.pdf) | {ref}`resources <content:references:w13>` |
 | 14, 04/13 | [🎬](https://youtu.be/IwYeOEM7CcM), [Fetch & Axios](assets/pdf/Fetch-Axios.pdf) | [🎬](https://youtu.be/PcYQc1M5t5c), [Cloud Functions](assets/pdf/ExpressJS.pdf) | [🎬](https://youtu.be/_1If2VVJkuU), AI Discussion | {ref}`resources <content:references:w14>` |
-| 15, 04/20 | [🎬](https://youtu.be/JUvk8CX_vgo), A5 Review | Hackathon | Innovation Day | Resources |
+| 15, 04/20 | [🎬](https://youtu.be/JUvk8CX_vgo), A5 Review | [Hackathon](assignments/hackathon.md) | Innovation Day | Resources |
 | 16, 04/27 | **Final Project Presentation** |  |  |  |

@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hackathon &#8212; GVSU CIS 371 - Web Application Programming</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/hackathon';</script>
+    <link rel="icon" href="https://www.gvsu.edu/cms4/asset/94807988-C47A-2A7B-05628C365AC3C2FA/gvsu_avatar_3[1678817053].jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../syllabus.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.jpg" class="logo__image only-light" alt="GVSU CIS 371 - Web Application Programming - Home"/>
+    <img src="../_static/logo.jpg" class="logo__image only-dark pst-js-only" alt="GVSU CIS 371 - Web Application Programming - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../syllabus.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../resources.html">Resources</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="css-html.html">1. CSS + HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bm.html">2. Beverage Maker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cdm.html">3. Custom Drink Maker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bs.html">4. Brew &amp; Save</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Project</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../project/term.html">Term Project</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/GVSU-CIS371/gvsu-cis371.github.io" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/GVSU-CIS371/gvsu-cis371.github.io/issues/new?title=Issue%20on%20page%20%2Fassignments/hackathon.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/assignments/hackathon.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Hackathon</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-stock-watchlist-portfolio-web-app">Topic: Stock Watchlist / Portfolio Web App</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#main-goal">Main Goal</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stock-data-requirement">Stock Data Requirement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#required-features">Required Features</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#live-stock-data">1. Live Stock Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stock-search-or-selection">2. Stock Search or Selection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#current-stock-information">3. Current Stock Information</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#watchlist-or-portfolio">4. Watchlist or Portfolio</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usable-interface">5. Usable Interface</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#must-use-the-vue-family">6. Must Use the Vue Family</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-usage">AI Usage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deployment-requirement">Deployment Requirement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rules">Rules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deliverables">Deliverables</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#source-code">1. Source Code</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#github-repository-and-github-pages-link">2. GitHub Repository and GitHub Pages Link</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#short-development-note">3. Short Development Note</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#judging-criteria">Judging Criteria</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#functionality">1. Functionality</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#completion">2. Completion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usability">3. Usability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-integration">4. Technical Integration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-ai-assisted-development">5. Effective AI-Assisted Development</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proper-use-of-the-vue-ecosystem">6. Proper Use of the Vue Ecosystem</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="hackathon">
+<h1>Hackathon<a class="headerlink" href="#hackathon" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>AI-Assisted Rapid Web App Development</p></li>
+</ul>
+<section id="topic-stock-watchlist-portfolio-web-app">
+<h2>Topic: Stock Watchlist / Portfolio Web App<a class="headerlink" href="#topic-stock-watchlist-portfolio-web-app" title="Link to this heading">#</a></h2>
+<p>In this in-class task, you will use AI tools to rapidly build a usable web app about stocks.</p>
+<p>Examples of AI tools include ChatGPT, Gemini, Claude, Copilot, Codex, and similar tools. You may use any AI tools you want.</p>
+<p>The goal of this task is to see how much you can accomplish in class by combining your own web development skills with AI-assisted coding, debugging, design, and problem solving.</p>
+<p>Your app must use <strong>live stock data from a real external web service</strong>.</p>
+</section>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h2>
+<p>To initialize your GitHub repository for this Hackathon, first accept the GitHub Classroom assignment here:</p>
+<p><a class="reference external" href="https://classroom.github.com/a/SI3SuuUn">https://classroom.github.com/a/SI3SuuUn</a></p>
+<p>After accepting the assignment, GitHub Classroom will create your repository. You should use that repository for your Hackathon project.</p>
+</section>
+<section id="main-goal">
+<h2>Main Goal<a class="headerlink" href="#main-goal" title="Link to this heading">#</a></h2>
+<p>Build a web app that allows a user to:</p>
+<ul class="simple">
+<li><p>view live stock prices</p></li>
+<li><p>search or select stocks</p></li>
+<li><p>create and manage a personal watchlist or portfolio</p></li>
+</ul>
+<p>This does <strong>not</strong> need to be a full commercial product. The goal is to create a working and usable prototype in class.</p>
+</section>
+<section id="stock-data-requirement">
+<h2>Stock Data Requirement<a class="headerlink" href="#stock-data-requirement" title="Link to this heading">#</a></h2>
+<p>Your app must use live data from a real stock data web service or API.</p>
+<ul class="simple">
+<li><p>You may choose <strong>any</strong> stock data service</p></li>
+<li><p>You are responsible for finding and integrating the service</p></li>
+<li><p>The data must be fetched from an external source during app usage</p></li>
+<li><p>You may not use only hard-coded local stock data</p></li>
+</ul>
+<p>As one possible starting point, you may explore public API collections such as:</p>
+<ul class="simple">
+<li><p><a class="github reference external" href="https://github.com/public-apis/public-apis">public-apis/public-apis</a></p></li>
+</ul>
+<p>You are <strong>not limited</strong> to that repository. You may use any real stock data service that works for your app.</p>
+</section>
+<section id="required-features">
+<h2>Required Features<a class="headerlink" href="#required-features" title="Link to this heading">#</a></h2>
+<p>Your app must include the following features.</p>
+<section id="live-stock-data">
+<h3>1. Live Stock Data<a class="headerlink" href="#live-stock-data" title="Link to this heading">#</a></h3>
+<p>The app must fetch live stock information from a real external service.</p>
+</section>
+<section id="stock-search-or-selection">
+<h3>2. Stock Search or Selection<a class="headerlink" href="#stock-search-or-selection" title="Link to this heading">#</a></h3>
+<p>The user must be able to choose one or more stocks.</p>
+<p>Examples:</p>
+<ul class="simple">
+<li><p>search by ticker symbol</p></li>
+<li><p>choose from a preset list</p></li>
+<li><p>click a stock from a watchlist</p></li>
+</ul>
+</section>
+<section id="current-stock-information">
+<h3>3. Current Stock Information<a class="headerlink" href="#current-stock-information" title="Link to this heading">#</a></h3>
+<p>The app must display useful current stock information.</p>
+<p>Examples:</p>
+<ul class="simple">
+<li><p>ticker symbol</p></li>
+<li><p>company name</p></li>
+<li><p>current price</p></li>
+<li><p>price change</p></li>
+<li><p>percent change</p></li>
+<li><p>last updated time</p></li>
+</ul>
+</section>
+<section id="watchlist-or-portfolio">
+<h3>4. Watchlist or Portfolio<a class="headerlink" href="#watchlist-or-portfolio" title="Link to this heading">#</a></h3>
+<p>The user must be able to create a personal stock list.</p>
+<p>You may implement either:</p>
+<ul class="simple">
+<li><p>a <strong>watchlist</strong>, where the user saves stocks to monitor</p></li>
+</ul>
+<p>or</p>
+<ul class="simple">
+<li><p>a <strong>portfolio</strong>, where the user stores stocks plus additional information such as number of shares or buy price</p></li>
+</ul>
+</section>
+<section id="usable-interface">
+<h3>5. Usable Interface<a class="headerlink" href="#usable-interface" title="Link to this heading">#</a></h3>
+<p>The app should be clear and usable.</p>
+<p>It does not need to be perfect, but the layout should make sense and the main features should be easy to find and use.</p>
+</section>
+<section id="must-use-the-vue-family">
+<h3>6. Must Use the Vue Family<a class="headerlink" href="#must-use-the-vue-family" title="Link to this heading">#</a></h3>
+<p>Your app must be built using the <strong>Vue family</strong>.</p>
+<p>At minimum, your project should use:</p>
+<ul class="simple">
+<li><p><strong>Vue</strong></p></li>
+<li><p><strong>Vue Router</strong></p></li>
+<li><p><strong>Pinia</strong></p></li>
+</ul>
+<p>You may also use other Vue-related tools or libraries if needed, such as Vuetify or other packages in the Vue ecosystem.</p>
+</section>
+</section>
+<section id="ai-usage">
+<h2>AI Usage<a class="headerlink" href="#ai-usage" title="Link to this heading">#</a></h2>
+<p>You are encouraged to use AI tools heavily during this task.</p>
+<p>You may use AI tools for:</p>
+<ul class="simple">
+<li><p>planning</p></li>
+<li><p>code generation</p></li>
+<li><p>debugging</p></li>
+<li><p>styling</p></li>
+<li><p>API integration</p></li>
+<li><p>refactoring</p></li>
+<li><p>improving UI design</p></li>
+</ul>
+<p>However, you are still responsible for:</p>
+<ul class="simple">
+<li><p>understanding your code</p></li>
+<li><p>testing your app</p></li>
+<li><p>fixing errors</p></li>
+<li><p>making the final product work</p></li>
+</ul>
+</section>
+<section id="deployment-requirement">
+<h2>Deployment Requirement<a class="headerlink" href="#deployment-requirement" title="Link to this heading">#</a></h2>
+<p>Your final app must be deployed to <strong>GitHub Pages</strong>.</p>
+<p>Make sure your deployed app is accessible by URL and works correctly in the browser.</p>
+<p>If your app has deployment limitations due to API restrictions, CORS issues, or API key concerns, explain them clearly in your development note. However, you should still make a strong effort to produce a working deployed version.</p>
+</section>
+<section id="rules">
+<h2>Rules<a class="headerlink" href="#rules" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>You must use the <strong>Vue family</strong> to create your project, such as <strong>Vue.js</strong>, <strong>Vue Router</strong>, <strong>Pinia</strong>, and other related Vue tools if needed.</p></li>
+<li><p>You may use any AI tools.</p></li>
+<li><p>You may use any real stock data web service.</p></li>
+<li><p>Your app must be a web app.</p></li>
+<li><p>Your final app must be deployed to GitHub Pages.</p></li>
+<li><p>The work should be completed during class time.</p></li>
+</ul>
+</section>
+<section id="deliverables">
+<h2>Deliverables<a class="headerlink" href="#deliverables" title="Link to this heading">#</a></h2>
+<p>Submit the following:</p>
+<section id="source-code">
+<h3>1. Source Code<a class="headerlink" href="#source-code" title="Link to this heading">#</a></h3>
+<p>Push your full project code to GitHub.</p>
+</section>
+<section id="github-repository-and-github-pages-link">
+<h3>2. GitHub Repository and GitHub Pages Link<a class="headerlink" href="#github-repository-and-github-pages-link" title="Link to this heading">#</a></h3>
+<p>Submit both of the following to Blackboard:</p>
+<ul class="simple">
+<li><p>the link to your GitHub repository</p></li>
+<li><p>the working deployed link to your app on GitHub Pages</p></li>
+</ul>
+</section>
+<section id="short-development-note">
+<h3>3. Short Development Note<a class="headerlink" href="#short-development-note" title="Link to this heading">#</a></h3>
+<p>Include a short note that lists:</p>
+<ul class="simple">
+<li><p>which AI tools you used</p></li>
+<li><p>which stock data service or API you used</p></li>
+<li><p>which features are working</p></li>
+<li><p>which features are incomplete</p></li>
+<li><p>any deployment limitations or API issues you encountered</p></li>
+</ul>
+</section>
+</section>
+<section id="judging-criteria">
+<h2>Judging Criteria<a class="headerlink" href="#judging-criteria" title="Link to this heading">#</a></h2>
+<p>Projects will be judged mainly based on the following:</p>
+<section id="functionality">
+<h3>1. Functionality<a class="headerlink" href="#functionality" title="Link to this heading">#</a></h3>
+<p>Does the app work and fetch live stock data correctly?</p>
+</section>
+<section id="completion">
+<h3>2. Completion<a class="headerlink" href="#completion" title="Link to this heading">#</a></h3>
+<p>How much of the required functionality is finished?</p>
+</section>
+<section id="usability">
+<h3>3. Usability<a class="headerlink" href="#usability" title="Link to this heading">#</a></h3>
+<p>Is the app reasonably clear and usable?</p>
+</section>
+<section id="technical-integration">
+<h3>4. Technical Integration<a class="headerlink" href="#technical-integration" title="Link to this heading">#</a></h3>
+<p>Did you successfully connect to and use a real external stock data service?</p>
+</section>
+<section id="effective-ai-assisted-development">
+<h3>5. Effective AI-Assisted Development<a class="headerlink" href="#effective-ai-assisted-development" title="Link to this heading">#</a></h3>
+<p>Did you use AI tools effectively to build a usable app quickly?</p>
+</section>
+<section id="proper-use-of-the-vue-ecosystem">
+<h3>6. Proper Use of the Vue Ecosystem<a class="headerlink" href="#proper-use-of-the-vue-ecosystem" title="Link to this heading">#</a></h3>
+<p>Did you correctly use Vue, Vue Router, and Pinia in the project design?</p>
+</section>
+</section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Some APIs may require an API key</p></li>
+<li><p>Some APIs may have rate limits</p></li>
+<li><p>Some APIs may be harder to use in browser-only apps</p></li>
+<li><p>Some APIs may fail, so be ready to adapt</p></li>
+<li><p>Part of this task is solving real integration problems with the help of AI tools</p></li>
+</ul>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<p>By the end of class, your app should:</p>
+<ul class="simple">
+<li><p>fetch live stock data</p></li>
+<li><p>allow users to view one or more stocks</p></li>
+<li><p>include a watchlist or simple portfolio</p></li>
+<li><p>use the Vue family, including Vue, Vue Router, and Pinia</p></li>
+<li><p>be deployed to GitHub Pages</p></li>
+<li><p>demonstrate how well you can build a usable app with AI-assisted rapid development</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./assignments"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#topic-stock-watchlist-portfolio-web-app">Topic: Stock Watchlist / Portfolio Web App</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#main-goal">Main Goal</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stock-data-requirement">Stock Data Requirement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#required-features">Required Features</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#live-stock-data">1. Live Stock Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stock-search-or-selection">2. Stock Search or Selection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#current-stock-information">3. Current Stock Information</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#watchlist-or-portfolio">4. Watchlist or Portfolio</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usable-interface">5. Usable Interface</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#must-use-the-vue-family">6. Must Use the Vue Family</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-usage">AI Usage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deployment-requirement">Deployment Requirement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rules">Rules</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deliverables">Deliverables</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#source-code">1. Source Code</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#github-repository-and-github-pages-link">2. GitHub Repository and GitHub Pages Link</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#short-development-note">3. Short Development Note</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#judging-criteria">Judging Criteria</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#functionality">1. Functionality</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#completion">2. Completion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usability">3. Usability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#technical-integration">4. Technical Integration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#effective-ai-assisted-development">5. Effective AI-Assisted Development</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proper-use-of-the-vue-ecosystem">6. Proper Use of the Vue Ecosystem</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr.Yong Zhuang
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
