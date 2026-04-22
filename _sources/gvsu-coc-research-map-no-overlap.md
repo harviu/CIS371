@@ -10,6 +10,7 @@ Research in artificial intelligence, machine learning, data science, intelligent
 
 - [Rahat Ibn Rafiq](https://www.gvsu.edu/computing/rafiq-rahat-ibn-158)
 - [Rajvardhan Patil](https://www.gvsu.edu/computing/patil-rajvardhan-75)
+- [Sorio Boit](https://www.gvsu.edu/computing/boit-sorio-152)
 
 ### 1.2 Computer Vision and Image Analysis
 
@@ -101,7 +102,7 @@ Research in software engineering, programming languages, formal methods, systems
 - [Byron DeVries](https://www.gvsu.edu/computing/devries-byron-70)
 - [Erik Fredericks](https://www.gvsu.edu/computing/fredericks-erik-44)
 - [Larry Kotman](https://www.gvsu.edu/computing/kotman-larry-53)
-- [Jonathan Engelsma](https://www.gvsu.edu/computing/engelsma-jonathan-37)
+- [Jonathan Engelsma](https://www.gvsu.edu/computing/engelsma-jonathan-190)
 
 ### 4.2 Formal Methods, Safety, and Software Quality
 

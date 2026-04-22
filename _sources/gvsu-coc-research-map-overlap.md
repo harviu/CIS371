@@ -10,8 +10,9 @@ Research in artificial intelligence, machine learning, data science, intelligent
 
 - [Rahat Ibn Rafiq](https://www.gvsu.edu/computing/rafiq-rahat-ibn-158)
 - [Rajvardhan Patil](https://www.gvsu.edu/computing/patil-rajvardhan-75)
-- [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
 - [Charitha S. Kodumagulla](https://www.gvsu.edu/computing/subrahmanya-charitha-157)
+- [Sorio Boit](https://www.gvsu.edu/computing/boit-sorio-152)
+- [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
 
 ### 1.2 Computer Vision and Image Analysis
 
@@ -21,10 +22,11 @@ Research in artificial intelligence, machine learning, data science, intelligent
 - [Talha Khan](https://www.gvsu.edu/computing/khan-talha-194)
 - [Paul D.S. Fink](https://www.gvsu.edu/computing/fink-paul-ds-191)
 - [Jonathan Leidig](https://www.gvsu.edu/computing/leidig-jonathan-153)
+- [Sorio Boit](https://www.gvsu.edu/computing/boit-sorio-152)
 
 ### 1.3 Machine Learning and Data Mining
 
-- [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
+- [Jiaxin Du](https://www.gvsu.edu/computing/du-jiaxin-43)
 - [Kamrul Hasan](https://www.gvsu.edu/computing/hasan-kamrul-56)
 - [Kruttika Sutrave](https://www.gvsu.edu/computing/sutrave-kruttika-47)
 - [Tiehang Duan](https://www.gvsu.edu/computing/duan-tiehang-189)
@@ -32,7 +34,9 @@ Research in artificial intelligence, machine learning, data science, intelligent
 - [Suhila Sawesi](https://www.gvsu.edu/computing/sawesi-suhila-60)
 - [Samah Mansour](https://www.gvsu.edu/computing/mansour-samah-62)
 - [Dimitrios Melissourgos](https://www.gvsu.edu/computing/melissourgos-dimitrios-49)
-- [Jiaxin Du](https://www.gvsu.edu/computing/du-jiaxin-43)
+- [Sorio Boit](https://www.gvsu.edu/computing/boit-sorio-152)
+- [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
+- [Zach DeBruine](https://www.gvsu.edu/computing/debruine-zachary-35)
 
 ### 1.4 Data Science and GIS
 
@@ -47,8 +51,8 @@ Research in artificial intelligence, machine learning, data science, intelligent
 - [Jonathan Leidig](https://www.gvsu.edu/computing/leidig-jonathan-153)
 - [Haoyu Li](https://www.gvsu.edu/computing/li-haoyu-51)
 - [Rania Khalsi](https://www.gvsu.edu/computing/khalsi-rania-252)
-- [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
 - [Jared Moore](https://www.gvsu.edu/computing/moore-jared-41)
+- [Yong Zhuang](https://www.gvsu.edu/computing/yong-zhuang-46)
 
 ### 1.6 Robotics and Autonomous Systems
 
@@ -89,7 +93,7 @@ Research in cybersecurity, privacy, secure systems, cyber-physical systems, and 
 
 - [Vijay Bhuse](https://www.gvsu.edu/computing/bhuse-vijay-58)
 - [Mohammad Iskandar](https://www.gvsu.edu/computing/iskandar-mohammad-217)
-- [Atif Mashkoor](https://www.gvsu.edu/computing/mashkoor-atif-152)
+- Atif Mashkoor
 
 ## 3. Human-Centered Computing, Accessibility, and Learning
 
@@ -138,12 +142,13 @@ Research in software engineering, programming languages, formal methods, systems
 - [Byron DeVries](https://www.gvsu.edu/computing/devries-byron-70)
 - [Erik Fredericks](https://www.gvsu.edu/computing/fredericks-erik-44)
 - [Larry Kotman](https://www.gvsu.edu/computing/kotman-larry-53)
-- [Jonathan Engelsma](https://www.gvsu.edu/computing/engelsma-jonathan-37)
+- [Jonathan Engelsma](https://www.gvsu.edu/computing/engelsma-jonathan-190)
 - [Reihaneh Hariri](https://www.gvsu.edu/computing/hariri-reihaneh-192)
+- Atif Mashkoor
 
 ### 4.2 Formal Methods, Safety, and Software Quality
 
-- [Atif Mashkoor](https://www.gvsu.edu/computing/mashkoor-atif-152)
+- Atif Mashkoor
 - [Vijay Bhuse](https://www.gvsu.edu/computing/bhuse-vijay-58)
 
 ### 4.3 Systems, Storage, and Edge Computing
@@ -151,7 +156,7 @@ Research in software engineering, programming languages, formal methods, systems
 - [Xiang Cao](https://www.gvsu.edu/computing/cao-xiang-72)
 - [Andrew Kalafut](https://www.gvsu.edu/computing/kalafut-andrew-154)
 - [Xinli Wang](https://www.gvsu.edu/computing/wang-xinli-65)
-- [Jonathan Engelsma](https://www.gvsu.edu/computing/engelsma-jonathan-37)
+- [Jonathan Engelsma](https://www.gvsu.edu/computing/engelsma-jonathan-190)
 
 ### 4.5 Applied Software and Industry-Facing Systems
 
