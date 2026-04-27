@@ -12,6 +12,17 @@ The goal of this task is to see how much you can accomplish in class by combinin
 
 Your app must use **live stock data from a real external web service**.
 
+## Best Solutions
+
+- Section 01
+  1. [Lauren Brown](https://gvsu-cis371.github.io/ai-coding-laurenbrown14/#/) \| [Code](https://github.com/GVSU-CIS371/ai-coding-laurenbrown14)
+- Section 02
+  1. [Caleb Croff](https://gvsu-cis371.github.io/ai-coding-Caleb-Croff/#/) \| [Code](https://github.com/GVSU-CIS371/ai-coding-Caleb-Croff)
+  2. [Evan Dahl](https://gvsu-cis371.github.io/ai-coding-Evand2305/) \| [Code](https://github.com/GVSU-CIS371/ai-coding-Evand2305/)
+  3. [Joshua Vink](https://gvsu-cis371.github.io/ai-coding-JoshuaVink/#/) \| [Code](https://github.com/GVSU-CIS371/ai-coding-JoshuaVink)
+  4. [James Brands](https://gvsu-cis371.github.io/ai-coding-jabrands26/) \| [Code](https://github.com/GVSU-CIS371/ai-coding-jabrands26/)
+  5. [Aaron Foster](https://gvsu-cis371.github.io/ai-coding-AMFoster92/) \| [Code](https://github.com/GVSU-CIS371/ai-coding-AMFoster92)
+
 ## Getting Started
 
 To initialize your GitHub repository for this Hackathon, first accept the GitHub Classroom assignment here:
