@@ -59,4 +59,5 @@ project:
 site:
   template: book-theme
   options:
+    favicon: assets/img/favicon.jpg
     logo: assets/img/logo.jpg
