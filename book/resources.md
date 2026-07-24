@@ -4,7 +4,8 @@
 
 ## Week 1
 
-```{div} full-width
+```{div}
+:class: full-width
 - [docker.com](https://www.docker.com/)
 - [Docker installation documentation](https://docs.docker.com/get-docker/)
 - [Docker Hub](https://hub.docker.com)
@@ -25,7 +26,8 @@
 
 ## Week 2
 
-```{div} full-width
+```{div}
+:class: full-width
 - [csszengarden](https://www.csszengarden.com/)
 - [Awesome Icons Reference](https://www.w3schools.com/icons/icons_reference.asp)
 - [CSS cheat-sheet](https://htmlcheatsheet.com/css/)
@@ -36,7 +38,8 @@
 
 ## Week 3
 
-```{div} full-width
+```{div}
+:class: full-width
 - [CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
 - [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/:link)
 - [Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp) vs. [pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
@@ -50,7 +53,8 @@
 
 ## Week 4
 
-```{div} full-width
+```{div}
+:class: full-width
 - [Visual Studio Code Extensions for Web Development](https://www.youtube.com/results?search_query=vscode+extensions+for+web+development)
 - [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - TypeScript: Online PlayGround
@@ -62,7 +66,8 @@
 
 ## Week 5
 
-```{div} full-width
+```{div}
+:class: full-width
 - [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 - [Window APIs](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 - [HTML DOM Events](https://www.w3schools.com/jsref/dom_obj_event.asp)
@@ -74,7 +79,8 @@
 
 ## Week 6
 
-```{div} full-width
+```{div}
+:class: full-width
 - [Type Aliases vs. Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
 - Midterm Exam
   - [Guide](exams/midterm-guide)
@@ -86,7 +92,8 @@
 
 ## Week 7
 
-```{div} full-width
+```{div}
+:class: full-width
 - Sass
   - CSS Preprocessors: [Sass](https://sass-lang.com/) \| [less](https://lesscss.org/) \| [stylus](https://stylus-lang.com/)
   - [Sass Online Playground](https://sass-lang.com/playground/)
@@ -104,7 +111,8 @@
 
 ## Week 8
 
-```{div} full-width
+```{div}
+:class: full-width
 - 2-way Binding
   - [v-model: Input text](https://play.vuejs.org/#eNqVUk1PGzEQ/Ssjn4IEu1BudBOJtlRqDy1qe0HyxWwmweAv+SMJXe1/79hmA6UFidvoveeZ92Y8sHPnmk1Cdsa6iNopEXHBDUC3lJtSUOkWVzZ5MEIjdNK4FCHeO5xzFnEXOYPNkbZLVARkDQHtomvdW583Svy+f7FHLQAuZX8HAkzS1+gn8O+2Xph17jD1rVoiRIG1NFSf5ErscnV8THWI6B7gdpr6TwZq8GzWg48Xhz1LMQx1D+MIWxHg2noD0gDB8UaGKxQejsqUcZzedW09Rdc+OVAXei9dhIAxOVAUOK8zcEac1M76CAN4XMEIK281cEZH5uw9N701IVYT86yYcXa+FJqzgz25tzIHg1v4RCNnB80a4+ekVCZmj9rstfZ5d5LRrq3OyAc7JEekWsl1cxusoT825ECc9VY7qdB/d1FSF87OoDCZE0rZ7deCRZ/wcML7G+zv/oPfhl3GOLv0GNBvKOWei8KT60pf/PxWftuepHMlRepXyB8YrErZY5V9SGZJtp/oitsvZeHSrH+Fi11EE6ZQ2WhWjkVfbvDxleiPdk+b0/KOm5GNfwBw/y57)
   - [v-model: color and Date](https://play.vuejs.org/#eNp9UsFO6zAQ/JWV3+U9iTZpuTxBqASIAxwAAUdfTLINBse2bKcUovw7a6dpC0K9WTO7s7Oz7ti5tdNVi+yEFQEbq0TABdcARSVX6UFPu7iX5RsIqIiFQmrbBggfFs84ixBnsJo0pkK1AR6DIyxbFJndaXQdaNEg9D28Cw/PxmmQGgjetBDzrWEztDTKuB9TE/Zt7AuuLyP46+jE/JAIuA47hakSnx8HZIpsyKPI9lIqfOmkDeAxtBaU0HXU9ZwRJxtrXIAOHC6hh6UzDXBGSXN2ynVptA9DHGex4i9n55VoOPu3JcdQRn6ez/5PZvlkNt+vEvWoMJ/t0L0ttv1/8jwfOots8E0u2RH5pZ6lrKev3mj6Bl1cNybcWKnQ3dkgSZOzE0hM5IRS5v0mYcG1eDTi5QuWb7/gr34dMc7uHXp0K8pgywXhaqRDRPrq8TYdZUvSaVpF1QfIB/RGtdHjUHbR6ops79Ult9fpHFLXT/5qHVD7caloNFb2qT5d6PLA6ju7x9Pj1Md1z/ovTfMSbw==)
@@ -138,7 +146,8 @@
 
 ## Week 10
 
-```{div} full-width
+```{div}
+:class: full-width
 - [Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 - Pinia State
   - [Two-way Binding](https://stackblitz.com/edit/vitejs-vite-xp2qjr?file=src%2Fstores%2FItemStore.ts)
@@ -164,7 +173,8 @@
 
 ## Week 11
 
-```{div} full-width
+```{div}
+:class: full-width
 - Vue Router
   - [Offical Website](https://router.vuejs.org/)
   - Weather App
@@ -186,7 +196,8 @@
 
 ## Week 12
 
-```{div} full-width
+```{div}
+:class: full-width
   - [Bottom sheet](https://play.vuetifyjs.com/#eNp9UsFOwzAM/RWTE0iUThyhm0CcuXGjHELmtRFpEiVuNTHt37HbdasEQqqq5Pn55b047weVkymfY7wbelQPqiLsotOEm9oDVFs7gHE653WtCPdUGPSEqVZjmQlD8Ukesv1GZuwLp1ODtQLhMvDirPmCV0GejKwZyy0iwRquxgUrVeUowooXzUAUumKiDkUXtujmVtayPiOdHIx8o9P2b5/Qom1a8XK/Wp1tL9oKoS/gc6ZBJ6u9dArj3wR8dMgIlyALMb7BzVtrM/CnYQoGkwK1mgTus/UN73AKBjGFWJXSuHDL2r/tzug8DTGwuLpphielqlyMlrfZJBsJnPaNZMyckA/v49hkuxgSwQES7uAIu8Sma8VPpFaPUjfBZzrFWAvpeqddxhsuVuWkzDrqeOt758bfxw/KS8kK)
   - [Buttons](https://play.vuetifyjs.com/#eNrFldtOwzAMhl+lqrgk7H4aSPAM3DEuvNQbgdSJctg4iHfHydauhZ0QVJu0SrGT/7Nj1334KL2To1trr5YRy3E5CVhbDQFvplQUk6WQhgIoQpcN2eTMqgCtFnQ9LSVSQDcti+fog5q/dUybAxsVXfDfsxtiMB1nds8CFRWSVyELmNqCDCyqmM6GulLC6uj52GSUd2+1ec3CvP4DbW5cgJnGLfGCbyOlMwixwjlE/S0/Y5GEIkG4OghtVlyENoTBatKJD6Q0kVLQXr0jG1+Fr0Hrf7yhH9VuUAOBBijyvoI2mWhwC26zIXgSNFIFqe5thY7j+u00aDOB5RupxGk9dW/qw0GfSrUOz4Hdm6yQysk8anZEJp9QvrQ7Oqqs2wzmYim8NmG8Od7blPFJL4VnXHp1opTom8mZXH3VUW/eN7+7GIJpW3Enfp3gEfoKHCla/Ip+eq+uPdvPU0+u/LykqHV+PH4BXBIgSA==)
   - [Cards](https://play.vuetifyjs.com/#eNqtVtuO2zYQ/RVWQIsWWMZrr7NYOJu0WzSLvBQF0hb7EOeBlsYWs9QFJOVLDP97ZkiJoiw/JEhebM9FM2fOHFL+cEyMTicPdf1i20CySO4tFLUSFt4sS8butzwVOmOpEsa8XibFnovGVsuEFWLPdzKzOXpvbu+WicsPT3CJdZiVVgEmPKpKy0yEJEzr2rAtN6qyC9OsXHbIcKVkWpW9g/U4gE9ZveLTZTIIV9gIw6B1pYchqkQPZpILBdoOo0Z+JpxTnKN3v7mfeASIqfe+3VsNBbAnEDYHzR5ctW6syYA+ckR8hDodSRb2NsxUH/h1zNCW62rHhJIbAp5CaQFnYmXFN43F32ZIFc4eSlFdns8wG73kuMXC7Hb+SwabV48eVKUGY12qoOUmR6LiIjFp7X7OWY+p3nmSeN5oLVNRAoZbru9IMxHDoWoA19tIxDmfBLDnM5PbAD3jawV7hnTesE+NsXJ94KYWKfAV2B1AOSRZSWO9WjMojbQHIrsq8AEavdZQQ4nrG8+0k2V2GFASV+NB0NPZDXsuJjlBvxCO5wzhaDXfA7GuGi3LzVeAnN/9/I34vA+Jj1UN+1ogFKsF4ZTRYt2KcNlrEorLGqKKN4irQ+2ea80omeEJiJwMCxZVBooEKwsU1zC6wEvK6/bMbyzUdNxHASvTZ0KgxAqUOQ9Ht+B8FGsPQa1lITTqYhi+sLhhgsmrHe/aC7UTh1F7mzfFindXFd4Vw3CO9PAMrJCIPIq4Q+bJGxyzeHWRMMKUq43fYy003j3jfQQxnK9k7YhwepUlQwtSYUYDL56B6KC0F5kYEbYQdaxql+beBqNdtkLtkugCvrDXKGPUbTjZBZ3H/uhAeAa74CXth4OBqW4BlNj9Pn8boCrwqf5aR//KluyPVKEswrFhr9lPFw7Q8di52e8M37iNUuw91BW96dgCPe+wZ+85neJzjW3O79cYTOdEY/CCQ9OkWtaWKVFu6BCiZpkB29TuOVlQN3ZkGtbsxNa6KhAI/s9YJq/88LhQVJw/bTgY5v169ECuCfO//y+TK29Pyf77n2DPyP6vj9+Q/fT2r+CYu4R3wX5J9uP7YN+6Bg+tffoNEXV4AtGEZy2UgThKN00bu479ndDb2Affph0HbwBxcIgaME6ALQz/z4Qi7uLOUXV8JZBPfF+ZpizjTKKeMmfz5XL/5/VkOnPfIePUfp/3fIKs/AFdfbfJ1Hcfdw0j4tu+7TZok6qqQdFe9RVfthX9N8nS1fpItN5PvLZQScnpqkQ9u4+PXwDr5y91)
@@ -197,7 +208,8 @@
 
 (content:references:w13)=
 
-```{div} full-width
+```{div}
+:class: full-width
 ## Week 13
 
 - [Firebase Console](https://console.firebase.google.com/)
@@ -209,7 +221,8 @@
 
 (content:references:w14)=
 
-```{div} full-width
+```{div}
+:class: full-width
 ## Week 14
 
 - Microsoft recently reported a supply chain compromise affecting Axios versions 1.14.1 and 0.30.4. If you are using Axios in personal projects, please review the information below and be mindful of package versions and dependency security. Here is the link: https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/

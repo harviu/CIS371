@@ -32,11 +32,11 @@ to our Web Application Programming. This course offers an in-depth exploration o
 | 6, 09/29 | TypeScript 5 | TypeScript 6 | Quiz 4 | {ref}`resources <content:references:w6>` |
 | 7, 10/06 | HTTP \| JS Modules | Vue.js 1 | Vue.js 2 \| A2 | {ref}`resources <content:references:w7>` |
 | 8, 10/13 | Vue.js 3 | Quiz 5 | Promise | {ref}`resources <content:references:w8>` |
-| 9, 10/20 | **Fall Break (No Class)** | A2 Review \| A3 | Pinia 1 | {ref}`resources <content:references:w9>` |
+| 9, 10/20 | **Fall Break (No Class)** | A2 Review \| A3 | Pinia 1 |  |
 | 10, 10/27 | Pinia 2 | Quiz 6 | Vue Router | {ref}`resources <content:references:w10>` |
 | 11, 11/03 | A3 Review \| A4 | Vuetify 1 | Vuetify 2 | {ref}`resources <content:references:w11>` |
 | 12, 11/10 | Quiz 7 | Firestore 1 | A4 Review \| A5 | {ref}`resources <content:references:w12>` |
 | 13, 11/17 | Firestore 2 | Authentication \| Demo | Fetch & Axios | {ref}`resources <content:references:w13>` |
 | 14, 11/24 | ExpressJS | **Thanksgiving Break** | **(No Class)** | {ref}`resources <content:references:w14>` |
-| 15, 12/01 | A5 Review | Project Lab | Project Lab | {ref}`resources <content:references:w15>` |
+| 15, 12/01 | A5 Review | Project Lab | Project Lab |  |
 | 16, 12/08 |  | **Project Presentation** |  |  |
