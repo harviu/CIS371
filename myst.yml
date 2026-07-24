@@ -29,33 +29,6 @@ project:
       children:
         - file: project/term.md
 
-    # These recovered pages are built so direct links continue to work, but
-    # they are omitted from the primary navigation.
-    - file: assignments/bcp.md
-      hidden: true
-    - file: assignments/bpc.md
-      hidden: true
-    - file: assignments/hackathon.md
-      hidden: true
-    - file: quizzes/1.md
-      hidden: true
-    - file: quizzes/2.md
-      hidden: true
-    - file: quizzes/3.md
-      hidden: true
-    - file: quizzes/4.md
-      hidden: true
-    - file: quizzes/5.md
-      hidden: true
-    - file: quizzes/6.md
-      hidden: true
-    - file: quizzes/7.md
-      hidden: true
-    - pattern: gvsu-coc-research-map*.md
-      hidden: true
-    - file: no.md
-      hidden: true
-
 site:
   template: book-theme
   options:
