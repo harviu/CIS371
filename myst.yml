@@ -24,6 +24,17 @@ project:
         - file: assignments/bm.md
         - file: assignments/cdm.md
         - file: assignments/bs.md
+        - file: assignments/bpc.md
+
+    - title: Quizzes
+      children:
+        - file: quizzes/1.md
+        - file: quizzes/2.md
+        - file: quizzes/3.md
+        - file: quizzes/4.md
+        - file: quizzes/5.md
+        - file: quizzes/6.md
+        - file: quizzes/7.md
 
     - title: Project
       children:
