@@ -3,12 +3,12 @@ version: 1
 project:
   title: GVSU CIS 371 - Web Application Programming
   description: Course materials for GVSU CIS 371 Web Application Programming
-  exclude:
-    # This is an exact duplicate of quizzes/7.md recovered from the old build.
-    - quizzes/76784.md
   authors:
+    - name: Dr. Haoyu Li
+  contributors:
     - name: Dr. Yong Zhuang
-  copyright: "2025"
+      note: Original site builder
+  copyright: "2026"
   github: harviu/CIS371
   toc:
     - file: syllabus.md
@@ -31,6 +31,8 @@ project:
 
 site:
   template: book-theme
+  parts:
+    footer: "Adapted from a teaching website created by Professor Yong Zhuang."
   options:
     favicon: assets/img/favicon.jpg
     logo: assets/img/logo.jpg

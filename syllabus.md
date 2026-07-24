@@ -1,18 +1,17 @@
-# Welcome
+# Web Application Programming
 
-to our Web Application Programming. This course offers an in-depth exploration of how websites and applications are crafted and function. We'll examine prevalent methods and tools in web development and study key programming and markup languages. Additionally, we'll learn about integrating databases, adhering to standard guidelines, and understanding the rationale behind various techniques. We'll explore HTML, CSS, Java/TypeScript, cloud databases, Ajax, and Vue.js, a leading framework in today's digital landscape.
+Welcome to our Web Application Programming. This course offers an in-depth exploration of how websites and applications are crafted and function. We'll examine prevalent methods and tools in web development and study key programming and markup languages. Additionally, we'll learn about integrating databases, adhering to standard guidelines, and understanding the rationale behind various techniques. We'll explore HTML, CSS, Java/TypeScript, cloud databases, Ajax, and Vue.js, a leading framework in today's digital landscape.
 
 ## Course Information
 
-**Instructor:** Dr. Yong Zhuang
+**Instructor:** Dr. Haoyu Li
 
-- <i class="fa fa-envelope"></i> **E-mail:** [yong.zhuang@gvsu.edu](mailto:yong.zhuang@gvsu.edu)
-- <i class="fa fa-building"></i> **Office:** MAK D-2-234
-- <i class="fa fa-building"></i> **Office Hours:** Monday, Wednesday, 12:00 pm - 1:00 pm
+- <i class="fa fa-envelope"></i> **E-mail:** [lihao@gvsu.edu](mailto:lihao@gvsu.edu)
+- <i class="fa fa-building"></i> **Office:** MAK D-2-220
+- <i class="fa fa-building"></i> **Office Hours:** Tuesday, Wednesday, and Thursday, 9:00 am - 10:00 am
 - <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/)
 - <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/syllabus.pdf)
-- <i class="fa fa-video"></i> **Zoom:** Meeting ID: 396 668 6420, Password: 587684
-- <i class="fa fa-calendar"></i> [**Schedule a One-on-One Meeting with Me**](https://outlook.office.com/bookwithme/user/8e0ad8c680e644aab3c32cd9c13b690b@gvsu.edu/meetingtype/9w4hDtDIaEmhON9SMd9_4Q2?anonymous&ep=mLinkFromTile)
+- <i class="fa fa-video"></i> **Zoom:** Meeting ID: 
 
 ## Class Schedule
 
