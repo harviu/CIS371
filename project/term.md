@@ -9,9 +9,11 @@
 ## Project Overview
 
 You will work in **groups (up to 4 members per team)** to develop a **web application** that is useful for you and other users with similar interests.  
+
 Your app should **not** be just a static webpage but should include **interactive features** and **database integration**.
 
-You may draw inspiration from existing web or mobile apps, but your implementation must be original in design and functionality.  
+You may draw inspiration from existing web or mobile apps, but your implementation must be original in design and functionality. 
+
 While learning from online tutorials is encouraged, submitting an unmodified tutorial project is not allowed.
 
 All team members must actively contribute to the shared codebase, and participation will be verified via **Git repository logs**.
@@ -59,17 +61,11 @@ Your web application must include the following features:
 
 ### Presentation (10%)
 
-**Section 01**
-
-- Each group must present their project through a YouTube video presentation. All team members must participate.
-
-**Section 02**
-
-- Each group must present their project in person to the class. All team members must participate.
+- Each group must present their project through a video presentation. All team members must participate.
 
 ### Project Repository Setup
 
-Each group should create **one GitHub repository** using this [GitHub Classroom link](https://classroom.github.com/a/5L4AYPa2).  
+Each group should create **one GitHub repository**.
 All team members must collaborate within this repository.
 
 ---
@@ -78,6 +74,6 @@ All team members must collaborate within this repository.
 
 | Deliverable | Description | Deadline |
 | --- | --- | --- |
-| **Project Proposal(10%)** | Submit a **one-page proposal** outlining your web app idea. The proposal should include: <br> - **App Overview**: The overview of the web application, what problems/tasks being addressed, what is unique about your web app, who are the potential users, and any other relevant information. <br> - **Team Responsibilities**: Task distribution among group members (all must contribute to all aspects). <br> - **Database Design**: Rough design of your database "tables" and the details of each table. For now, describe the details of your DB design as if you would implement them using relational databases. In reality, these "tables" will be implemented as Cloud Firestore collections/documents. <br> - **External Services**: Additional third party web-services that you plan to incorporate into the project (if any). | **2/20** |
-| **Application Development & Deployment(80%)** | Deploy the web app on a **publicly accessible website**. Submit the following on Blackboard: <br> - App URL (e.g., GitHub Pages or another hosting service). <br> - If your web app requires special accounts (for instance, admin account) include the userid(s) and password(s). <br> - Git Repository Link. | **4/27** |
-| **Presentation(10%)** | Section 01: Each group must present their project through a YouTube video presentation. The presentation should cover the app’s purpose, key features, technologies used, and a demonstration. All team members must participate. <br> Section 02: Each group must present their project in class. The presentation should cover the app’s purpose, key features, technologies used, and a live demonstration. All team members must participate. | **4/27** |
+| **Project Proposal(10%)** | Submit a **one-page proposal** outlining your web app idea. The proposal should include: <br> - **App Overview**: The overview of the web application, what problems/tasks being addressed, what is unique about your web app, who are the potential users, and any other relevant information. <br> - **Team Responsibilities**: Task distribution among group members (all must contribute to all aspects). <br> - **Database Design**: Rough design of your database "tables" and the details of each table. For now, describe the details of your DB design as if you would implement them using relational databases. In reality, these "tables" will be implemented as Cloud Firestore collections/documents. <br> - **External Services**: Additional third party web-services that you plan to incorporate into the project (if any). | **10/9** |
+| **Application Development & Deployment(80%)** | Deploy the web app on a **publicly accessible website**. Submit the following on Blackboard: <br> - App URL (e.g., GitHub Pages or another hosting service). <br> - If your web app requires special accounts (for instance, admin account) include the userid(s) and password(s). <br> - Git Repository Link. | **12/14** |
+| **Presentation(10%)** |  Each group must present their project through a YouTube video presentation. The presentation should cover the app’s purpose, key features, technologies used, and a demonstration. All team members must participate. | **12/14** |
