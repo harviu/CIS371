@@ -8,7 +8,7 @@ Welcome to our Web Application Programming. This course offers an in-depth explo
 
 - <i class="fa fa-envelope"></i> **E-mail:** [lihao@gvsu.edu](mailto:lihao@gvsu.edu)
 - <i class="fa fa-building"></i> **Office:** MAK D-2-220
-- <i class="fa fa-building"></i> **Office Hours:** Tuesday, Wednesday, and Thursday, 9:00 am - 10:00 am in-person and Zoom
+- <i class="fa fa-building"></i> **Office Hours:** Tuesday, Wednesday, and Thursday, 1:00 pm - 2:00 pm in-person and Zoom
 - <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/)
 - <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/syllabus.pdf)
 - <i class="fa fa-video"></i> **Zoom:** https://gvsu-edu.zoom.us/j/6163312441?pwd=qveXXLNaUX6tKzslWe0XIEQqh15xia.1
