@@ -6,12 +6,12 @@ Welcome to our Web Application Programming. This course offers an in-depth explo
 
 **Instructor:** Dr. Haoyu Li
 
-- <i class="fa fa-envelope"></i> **E-mail:** [lihao@gvsu.edu](mailto:lihao@gvsu.edu)
-- <i class="fa fa-building"></i> **Office:** MAK D-2-220
-- <i class="fa fa-building"></i> **Office Hours:** Tuesday, Wednesday, and Thursday, 1:00 pm - 2:00 pm in-person and Zoom
-- <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/)
-- <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/syllabus.pdf)
-- <i class="fa fa-video"></i> **Zoom:** https://gvsu-edu.zoom.us/j/6163312441?pwd=qveXXLNaUX6tKzslWe0XIEQqh15xia.1
+- {span .fa-solid .fa-envelope .course-info-icon}`&#8203;` **E-mail:** [lihao@gvsu.edu](mailto:lihao@gvsu.edu)
+- {span .fa-solid .fa-building .course-info-icon}`&#8203;` **Office:** MAK D-2-220
+- {span .fa-solid .fa-business-time .course-info-icon}`&#8203;` **Office Hours:** Tuesday, Wednesday, and Thursday, 1:00 pm - 2:00 pm in-person and Zoom
+- {span .fa-solid .fa-book .course-info-icon}`&#8203;` **Course Page:** [Blackboard](https://lms.gvsu.edu/)
+- {span .fa-solid .fa-book-open-reader .course-info-icon}`&#8203;` **Syllabus:** [View the syllabus here](assets/pdf/syllabus.pdf)
+- {span .fa-solid .fa-video .course-info-icon}`&#8203;` **Zoom:** https://gvsu-edu.zoom.us/j/6163312441?pwd=qveXXLNaUX6tKzslWe0XIEQqh15xia.1
 
 ## Class Schedule
 

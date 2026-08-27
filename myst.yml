@@ -47,3 +47,4 @@ site:
   options:
     favicon: assets/img/favicon.jpg
     logo: assets/img/logo.jpg
+    style: assets/css/custom.css
