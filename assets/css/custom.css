@@ -5,3 +5,13 @@
   width: 1.5rem;
   text-align: center;
 }
+
+/* Content images fill their containing paragraph or list item. */
+article.content img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: none;
+  margin-inline: 0;
+}
