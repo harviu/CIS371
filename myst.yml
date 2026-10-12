@@ -10,6 +10,11 @@ project:
       note: Original site builder
   copyright: "2026"
   github: harviu/CIS371
+  # Unreleased assignments: remove exclusions and restore TOC entries when ready.
+  exclude:
+    - assignments/cdm.md
+    - assignments/bs.md
+    - assignments/bpc.md
   toc:
     - file: syllabus.md
       title: Welcome
@@ -22,9 +27,6 @@ project:
       children:
         - file: assignments/css-html.md
         - file: assignments/bm.md
-        - file: assignments/cdm.md
-        - file: assignments/bs.md
-        - file: assignments/bpc.md
 
     - title: Quizzes
       children:
