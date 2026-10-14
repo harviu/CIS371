@@ -18,7 +18,7 @@ In this homework, you will extend your previous project **Brew & Save** by movin
 
 ## Instructions
 
-Accept your instructor’s [GitHub Classroom invitation](https://classroom.github.com/a/elA1ugEa) to create your project repository.
+Use the [Assignment 5 template](https://github.com/harviu/cis371-assignment5) to create your project repository.
 
 You may copy all necessary code from your previous project **Custom Drink Maker** or **Brew & Save**, excluding the .json files in the data/ folder.
 
@@ -187,6 +187,6 @@ Reference demo: [Expected Outcome Demo](https://gvsu-cis371.github.io/BrewPortal
 
 - Github Page Setup
   - Set up your GitHub repository for GitHub Pages deployment. Follow the steps shown in the image below: ![Layout](../assets/img/github-page.png).
-  - Your web application will be accessible at the URL: gvsu-cis371.github.io/YOUR-REPO
+  - Your web application will be accessible at the URL: `https://[GITHUB_ID].github.io/[YOUR_REPO]/`
 
 - Submit the URL of your GitHub Page in Blackboard.

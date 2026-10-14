@@ -74,6 +74,6 @@ In `Beverage.vue`, implement conditional rendering to ensure the beverage's visu
 
 - Github Page Setup
   - Set up your GitHub repository for GitHub Pages deployment. Follow the steps shown in the image below: ![Layout](../assets/img/github-page.png).
-  - Your web application will be accessible at the URL: gvsu-cis371.github.io/YOUR-REPO
+  - Your web application will be accessible at the URL: `https://[GITHUB_ID].github.io/[YOUR_REPO]/`
 
 - Submit the URL of your GitHub Page in Blackboard.

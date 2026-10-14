@@ -10,8 +10,7 @@ In this homework, you will extend your previous project Custom Drink Maker by bu
 - **User Interaction:** Enhance the user interface to allow users to create and view beverage combinations easily.
 
 ## Instructions
-
-Accept your instructor’s [GitHub Classroom invitation](https://classroom.github.com/a/Ajkj81s-) to create your project repository.
+Use the [Assignment 4 template](https://github.com/harviu/cis371-assignment4) to create your project repository.
 
 1. **Project Initialization:**  
    Copy all necessary code (excluding `beverage.ts`) from your previous homework **"Custom Drink Maker"** into the `src/` folder to ensure that all components function correctly and beverages are rendered as expected.
@@ -60,6 +59,6 @@ Focus on implementing the functionalities; the aesthetic design of the radio but
 
 - Github Page Setup
   - Set up your GitHub repository for GitHub Pages deployment. Follow the steps shown in the image below: ![Layout](../assets/img/github-page.png).
-  - Your web application will be accessible at the URL: gvsu-cis371.github.io/YOUR-REPO
+  - Your web application will be accessible at the URL: `https://[GITHUB_ID].github.io/[YOUR_REPO]/`
 
 - Submit the URL of your GitHub Page in Blackboard.
