@@ -102,7 +102,7 @@ Required behavior:
 
 #### Expected Outcome
 
-- [Expected Outcome Demo](https://gvsu-cis371.github.io/BeverageMaker/)
+- [Expected Outcome Demo](https://harviu.github.io/BeverageMaker-Expected/)
 
 ## Grading Rubric
 

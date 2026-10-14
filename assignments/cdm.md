@@ -52,7 +52,7 @@ In `Beverage.vue`, implement conditional rendering to ensure the beverage's visu
 
 #### Expected Outcome
 
-- [Expected Outcome Demo](https://gvsu-cis371.github.io/CustomDrinkMaker/)
+- [Expected Outcome Demo](https://harviu.github.io/CustomDrinkMaker-Expected/)
 
 ## Grading Rubrics
 
