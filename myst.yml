@@ -12,7 +12,6 @@ project:
   github: harviu/CIS371
   # Unreleased assignments: remove exclusions and restore TOC entries when ready.
   exclude:
-    - assignments/cdm.md
     - assignments/bs.md
     - assignments/bpc.md
   toc:
@@ -27,6 +26,7 @@ project:
       children:
         - file: assignments/css-html.md
         - file: assignments/bm.md
+        - file: assignments/cdm.md
 
     - title: Quizzes
       children:

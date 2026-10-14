@@ -13,29 +13,7 @@ In this assignment, you will leverage Vue.js to create a dynamic and interactive
 
 ## Preparation
 
-1. Accept your instructor's [GitHub classroom invitation](https://classroom.github.com/a/AjJYBOcU) to set up your project repository.
-   1. **Select Your Name:** ![select-name](../assets/img/github-classroom-selectname.png)
-   2. **Initialize Your Assignment Repository:** ![init-repo](../assets/img/github-classroom-initrepo.png)
-   3. **Clone the Repository:** ![clone](../assets/img/github-classroom-sshclone.png) You're now ready to clone the repository. In your `terminal`, use the following command with your SSH repository link to download the repository to your local machine:
-
-      ```bash
-      git clone [YOUR_SSH_REPO_LINK]
-      ```
-
-   4. **Install Required Packages:** Execute the following command to install the necessary packages for your project:
-
-      ```bash
-      cd [YOUR_REPO]
-      npm install
-      ```
-
-2. Run a local development server (default port 5173):
-
-   ```bash
-   npm run dev
-   ```
-
-   Then you can access your project at `localhost:5173` in browser.
+Follow the IDE, environment, GitHub, and repository setup as you did in lab 1 and 2. As a reminder, you can find the instructions on [lab 1 page](css-html.md). Use the [Assignment 3 template](https://github.com/harviu/cis371-assignment3).
 
 ## Instructions
 
