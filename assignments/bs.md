@@ -34,7 +34,7 @@ Use the [Assignment 4 template](https://github.com/harviu/cis371-assignment4) to
 
 ## Expected Outcomes
 
-Focus on implementing the functionalities; the aesthetic design of the radio button list, text box, and button is secondary.
+Focus on implementing the required functionality; the aesthetic design of the radio button list, text box, and button is secondary.
 
 - [Expected Outcome Demo](https://gvsu-cis371.github.io/BrewSave/)
 
@@ -57,7 +57,7 @@ Focus on implementing the functionalities; the aesthetic design of the radio but
    npm run deploy
   ```
 
-- Github Page Setup
+- GitHub Pages Setup
   - Set up your GitHub repository for GitHub Pages deployment. Follow the steps shown in the image below: ![Layout](../assets/img/github-page.png).
   - Your web application will be accessible at the URL: `https://[GITHUB_ID].github.io/[YOUR_REPO]/`
 
