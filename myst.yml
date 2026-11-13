@@ -11,7 +11,6 @@ project:
   copyright: "2026"
   github: harviu/CIS371
   # Unreleased assignments: remove exclusions and restore TOC entries when ready.
-  exclude:
   toc:
     - file: syllabus.md
       title: Welcome
